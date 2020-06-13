@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Riyadh_Tour_Automation_TESTNG(failed)">
+    <classes>
+      <class name="MosquesPageTests">
+        <methods>
+          <include name="isFourthMosqueLocationCorrect"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MosquesPageTests -->
+      <class name="MallsPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="isFifthMallLocationCorrect"/>
+          <include name="isFirstMallLocationCorrect"/>
+        </methods>
+      </class> <!-- MallsPageTests -->
+      <class name="MuseumsPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="isSecondMuseumLocationCorrect"/>
+          <include name="isFifthMuseumLocationCorrect"/>
+        </methods>
+      </class> <!-- MuseumsPageTests -->
+    </classes>
+  </test> <!-- Riyadh_Tour_Automation_TESTNG(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

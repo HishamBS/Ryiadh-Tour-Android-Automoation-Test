@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="34" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-11T07:01:30Z" name="Default Suite" finished-at="2020-06-11T07:04:42Z" duration-ms="191705">
+    <groups>
+    </groups>
+    <test started-at="2020-06-11T07:01:30Z" name="Riyadh_Tour_Automation_TESTNG" finished-at="2020-06-11T07:04:42Z" duration-ms="191705">
+      <class name="ApplicationRunningTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApplicationRunningTest@4fcd19b3]" started-at="2020-06-11T07:01:30Z" name="setUp" finished-at="2020-06-11T07:01:38Z" duration-ms="7542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="applicationIsOpen()[pri:0, instance:ApplicationRunningTest@4fcd19b3]" started-at="2020-06-11T07:01:38Z" name="applicationIsOpen" finished-at="2020-06-11T07:01:40Z" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationIsOpen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ApplicationRunningTest@4fcd19b3]" started-at="2020-06-11T07:01:40Z" name="tearDown" finished-at="2020-06-11T07:01:40Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ApplicationRunningTest -->
+      <class name="MallsPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:01:40Z" name="setUp" finished-at="2020-06-11T07:01:44Z" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="areAllImagesDisplayed()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:01:44Z" name="areAllImagesDisplayed" finished-at="2020-06-11T07:01:48Z" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areAllImagesDisplayed -->
+        <test-method signature="isFifthMallLocationCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:01:48Z" name="isFifthMallLocationCorrect" finished-at="2020-06-11T07:01:56Z" duration-ms="8139" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBooks-MBP', ip: 'fe80:0:0:0:14da:9952:1997:379c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '13.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {databaseEnabled: false, desired: {deviceName: Android Emulator, platformName: android, udid: emulator-5554, version: 10.0}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 172, takesScreenshot: true, udid: emulator-5554, version: 10.0, viewportRect: {height: 2449, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBooks-MBP', ip: 'fe80:0:0:0:14da:9952:1997:379c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '13.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {databaseEnabled: false, desired: {deviceName: Android Emulator, platformName: android, udid: emulator-5554, version: 10.0}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 172, takesScreenshot: true, udid: emulator-5554, version: 10.0, viewportRect: {height: 2449, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at Page.clickTabItem(Page.java:73)
+at MallsPageTests.isFifthMallLocationCorrect(MallsPageTests.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMallLocationCorrect -->
+        <test-method signature="isFifthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:01:56Z" name="isFifthMallWorkingHoursCorrect" finished-at="2020-06-11T07:02:00Z" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMallWorkingHoursCorrect -->
+        <test-method signature="isFirstMallLocationCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:00Z" name="isFirstMallLocationCorrect" finished-at="2020-06-11T07:02:08Z" duration-ms="8292" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Exit 9] but found [Al Nakheel Mall]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Exit 9] but found [Al Nakheel Mall]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at MallsPageTests.isFirstMallLocationCorrect(MallsPageTests.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMallLocationCorrect -->
+        <test-method signature="isFirstMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:08Z" name="isFirstMallWorkingHoursCorrect" finished-at="2020-06-11T07:02:11Z" duration-ms="3113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMallWorkingHoursCorrect -->
+        <test-method signature="isFourthMallLocationCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:11Z" name="isFourthMallLocationCorrect" finished-at="2020-06-11T07:02:17Z" duration-ms="6018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMallLocationCorrect -->
+        <test-method signature="isFourthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:17Z" name="isFourthMallWorkingHoursCorrect" finished-at="2020-06-11T07:02:20Z" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMallWorkingHoursCorrect -->
+        <test-method signature="isMallsTabDisplayed()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:20Z" name="isMallsTabDisplayed" finished-at="2020-06-11T07:02:23Z" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMallsTabDisplayed -->
+        <test-method signature="isSecondMallLocationCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:23Z" name="isSecondMallLocationCorrect" finished-at="2020-06-11T07:02:28Z" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMallLocationCorrect -->
+        <test-method signature="isSecondMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:28Z" name="isSecondMallWorkingHoursCorrect" finished-at="2020-06-11T07:02:32Z" duration-ms="3932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMallWorkingHoursCorrect -->
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:32Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-11T07:02:38Z" duration-ms="5778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+        <test-method signature="isThirdMallLocationCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:38Z" name="isThirdMallLocationCorrect" finished-at="2020-06-11T07:02:43Z" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMallLocationCorrect -->
+        <test-method signature="isThirdMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:43Z" name="isThirdMallWorkingHoursCorrect" finished-at="2020-06-11T07:02:46Z" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMallWorkingHoursCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MallsPageTests@376b4233]" started-at="2020-06-11T07:02:46Z" name="tearDown" finished-at="2020-06-11T07:02:46Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MallsPageTests -->
+      <class name="MuseumsPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:03:42Z" name="setUp" finished-at="2020-06-11T07:03:45Z" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="areAllImagesDisplayed()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:03:45Z" name="areAllImagesDisplayed" finished-at="2020-06-11T07:03:49Z" duration-ms="3430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areAllImagesDisplayed -->
+        <test-method signature="isFifthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:03:49Z" name="isFifthMuseumLocationCorrect" finished-at="2020-06-11T07:03:55Z" duration-ms="5725" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Al Safarat] but found [King Salman Science Oasis]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Al Safarat] but found [King Salman Science Oasis]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at MuseumsPageTests.isFifthMuseumLocationCorrect(MuseumsPageTests.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMuseumLocationCorrect -->
+        <test-method signature="isFifthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:03:55Z" name="isFifthMuseumWorkingHoursCorrect" finished-at="2020-06-11T07:03:57Z" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMuseumWorkingHoursCorrect -->
+        <test-method signature="isFirstMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:03:57Z" name="isFirstMuseumLocationCorrect" finished-at="2020-06-11T07:04:04Z" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMuseumLocationCorrect -->
+        <test-method signature="isFirstMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:04Z" name="isFirstMuseumWorkingHoursCorrect" finished-at="2020-06-11T07:04:07Z" duration-ms="2961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMuseumWorkingHoursCorrect -->
+        <test-method signature="isFourthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:07Z" name="isFourthMuseumLocationCorrect" finished-at="2020-06-11T07:04:12Z" duration-ms="5056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMuseumLocationCorrect -->
+        <test-method signature="isFourthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:12Z" name="isFourthMuseumWorkingHoursCorrect" finished-at="2020-06-11T07:04:16Z" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMuseumWorkingHoursCorrect -->
+        <test-method signature="isMuseumsTabDisplayed()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:16Z" name="isMuseumsTabDisplayed" finished-at="2020-06-11T07:04:18Z" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMuseumsTabDisplayed -->
+        <test-method signature="isSecondMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:18Z" name="isSecondMuseumLocationCorrect" finished-at="2020-06-11T07:04:23Z" duration-ms="4985" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Eastern Ring Branch Rd, King Abdullah Dt.] but found [Saqr Aljazeera Aviation Museum]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Eastern Ring Branch Rd, King Abdullah Dt.] but found [Saqr Aljazeera Aviation Museum]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at MuseumsPageTests.isSecondMuseumLocationCorrect(MuseumsPageTests.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMuseumLocationCorrect -->
+        <test-method signature="isSecondMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:23Z" name="isSecondMuseumWorkingHoursCorrect" finished-at="2020-06-11T07:04:26Z" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMuseumWorkingHoursCorrect -->
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:26Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-11T07:04:31Z" duration-ms="4928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+        <test-method signature="isThirdMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:31Z" name="isThirdMuseumLocationCorrect" finished-at="2020-06-11T07:04:39Z" duration-ms="8044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMuseumLocationCorrect -->
+        <test-method signature="isThirdMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:39Z" name="isThirdMuseumWorkingHoursCorrect" finished-at="2020-06-11T07:04:42Z" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MuseumsPageTests@5d11346a]" started-at="2020-06-11T07:04:42Z" name="tearDown" finished-at="2020-06-11T07:04:42Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MuseumsPageTests -->
+      <class name="MosquesPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:02:46Z" name="setUp" finished-at="2020-06-11T07:02:50Z" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isFifthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:02:50Z" name="isFifthMosqueLocationCorrect" finished-at="2020-06-11T07:02:55Z" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMosqueLocationCorrect -->
+        <test-method signature="isFifthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:02:55Z" name="isFifthMosqueWorkingHoursCorrect" finished-at="2020-06-11T07:02:58Z" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMosqueWorkingHoursCorrect -->
+        <test-method signature="isFirstMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:02:58Z" name="isFirstMosqueLocationCorrect" finished-at="2020-06-11T07:03:05Z" duration-ms="7254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMosqueLocationCorrect -->
+        <test-method signature="isFirstMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:05Z" name="isFirstMosqueWorkingHoursCorrect" finished-at="2020-06-11T07:03:08Z" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMosqueWorkingHoursCorrect -->
+        <test-method signature="isFourthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:08Z" name="isFourthMosqueLocationCorrect" finished-at="2020-06-11T07:03:14Z" duration-ms="5349" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [takhasussi] but found [Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [takhasussi] but found [Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at MosquesPageTests.isFourthMosqueLocationCorrect(MosquesPageTests.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMosqueLocationCorrect -->
+        <test-method signature="isFourthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:14Z" name="isFourthMosqueWorkingHoursCorrect" finished-at="2020-06-11T07:03:17Z" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMosqueWorkingHoursCorrect -->
+        <test-method signature="isMosqueTabDisplayed()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:17Z" name="isMosqueTabDisplayed" finished-at="2020-06-11T07:03:19Z" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMosqueTabDisplayed -->
+        <test-method signature="isSecondMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:19Z" name="isSecondMosqueLocationCorrect" finished-at="2020-06-11T07:03:25Z" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMosqueLocationCorrect -->
+        <test-method signature="isSecondMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:25Z" name="isSecondMosqueWorkingHoursCorrect" finished-at="2020-06-11T07:03:27Z" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMosqueWorkingHoursCorrect -->
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:27Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-11T07:03:33Z" duration-ms="5657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+        <test-method signature="isThirdMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:33Z" name="isThirdMosqueLocationCorrect" finished-at="2020-06-11T07:03:39Z" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMosqueLocationCorrect -->
+        <test-method signature="isThirdMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:39Z" name="isThirdMosqueWorkingHoursCorrect" finished-at="2020-06-11T07:03:42Z" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMosqueWorkingHoursCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MosquesPageTests@2fd66ad3]" started-at="2020-06-11T07:03:42Z" name="tearDown" finished-at="2020-06-11T07:03:42Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MosquesPageTests -->
+    </test> <!-- Riyadh_Tour_Automation_TESTNG -->
+  </suite> <!-- Default Suite -->
+</testng-results>
