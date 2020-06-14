@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">39 methods, 5 failed,   34 passed</span>
+                    <span class="method-stats">39 methods, 4 failed,   35 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="MallsPageTests" class="method navigator-link" hash-for-method="isFifthMallLocationCorrect">isFifthMallLocationCorrect</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="MuseumsPageTests" class="method navigator-link" hash-for-method="isFifthMuseumLocationCorrect">isFifthMuseumLocationCorrect</a> <!-- method navigator-link -->
@@ -141,12 +136,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="MuseumsPageTests" class="method navigator-link" hash-for-method="areAllImagesDisplayed">areAllImagesDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="MallsPageTests" class="method navigator-link" hash-for-method="areAllImagesDisplayed">areAllImagesDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="MuseumsPageTests" class="method navigator-link" hash-for-method="areAllImagesDisplayed">areAllImagesDisplayed</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="MallsPageTests" class="method navigator-link" hash-for-method="isFifthMallLocationCorrect">isFifthMallLocationCorrect</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -261,17 +261,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="MuseumsPageTests" class="method navigator-link" hash-for-method="isSuccessfullyRedirectedToGoogleMaps">isSuccessfullyRedirectedToGoogleMaps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="MosquesPageTests" class="method navigator-link" hash-for-method="isSuccessfullyRedirectedToGoogleMaps">isSuccessfullyRedirectedToGoogleMaps</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="MallsPageTests" class="method navigator-link" hash-for-method="isSuccessfullyRedirectedToGoogleMaps">isSuccessfullyRedirectedToGoogleMaps</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="MuseumsPageTests" class="method navigator-link" hash-for-method="isSuccessfullyRedirectedToGoogleMaps">isSuccessfullyRedirectedToGoogleMaps</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -319,80 +319,16 @@
           <div class="suite-Default_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">MosquesPageTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFourthMosqueLocationCorrect">
-                  </a> <!-- isFourthMosqueLocationCorrect -->
-                  <span class="method-name">isFourthMosqueLocationCorrect</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [takhasussi] but found [Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque]
-	at MosquesPageTests.isFourthMosqueLocationCorrect(MosquesPageTests.java:67)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-failed -->
-          <div class="suite-Default_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">MallsPageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="isFifthMallLocationCorrect">
-                  </a> <!-- isFifthMallLocationCorrect -->
-                  <span class="method-name">isFifthMallLocationCorrect</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MacBooks-MBP&apos;, ip: &apos;fe80:0:0:0:14da:9952:1997:379c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;13.0.2&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {databaseEnabled: false, desired: {deviceName: Android Emulator, platformName: android, udid: emulator-5554, version: 10.0}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 172, takesScreenshot: true, udid: emulator-5554, version: 10.0, viewportRect: {height: 2449, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at Page.clickTabItem(Page.java:73)
-	at MallsPageTests.isFifthMallLocationCorrect(MallsPageTests.java:81)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="isFirstMallLocationCorrect">
                   </a> <!-- isFirstMallLocationCorrect -->
                   <span class="method-name">isFirstMallLocationCorrect</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Exit 9] but found [Al Nakheel Mall]
-	at MallsPageTests.isFirstMallLocationCorrect(MallsPageTests.java:38)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Al Nakheel Mall] but found [Exit 9]
+	at MallsPageTests.isFirstMallLocationCorrect(MallsPageTests.java:49)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
 ... Removed 28 stack frames
@@ -412,8 +348,8 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
                   <a name="isFifthMuseumLocationCorrect">
                   </a> <!-- isFifthMuseumLocationCorrect -->
                   <span class="method-name">isFifthMuseumLocationCorrect</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Al Safarat] but found [King Salman Science Oasis]
-	at MuseumsPageTests.isFifthMuseumLocationCorrect(MuseumsPageTests.java:84)
+                  <div class="stack-trace">java.lang.AssertionError: expected [King Salman Science Oasis] but found [Al Safarat]
+	at MuseumsPageTests.isFifthMuseumLocationCorrect(MuseumsPageTests.java:110)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
 ... Removed 28 stack frames
@@ -425,8 +361,29 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
                   <a name="isSecondMuseumLocationCorrect">
                   </a> <!-- isSecondMuseumLocationCorrect -->
                   <span class="method-name">isSecondMuseumLocationCorrect</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Eastern Ring Branch Rd, King Abdullah Dt.] but found [Saqr Aljazeera Aviation Museum]
-	at MuseumsPageTests.isSecondMuseumLocationCorrect(MuseumsPageTests.java:47)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Saqr Aljazeera Aviation Museum] but found [Eastern Ring Branch Rd, King Abdullah Dt.]
+	at MuseumsPageTests.isSecondMuseumLocationCorrect(MuseumsPageTests.java:65)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MosquesPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFourthMosqueLocationCorrect">
+                  </a> <!-- isFourthMosqueLocationCorrect -->
+                  <span class="method-name">isFourthMosqueLocationCorrect</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque] but found [takhasussi]
+	at MosquesPageTests.isFourthMosqueLocationCorrect(MosquesPageTests.java:90)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
 ... Removed 28 stack frames
@@ -438,91 +395,6 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
           <div class="suite-Default_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MosquesPageTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFifthMosqueLocationCorrect">
-                  </a> <!-- isFifthMosqueLocationCorrect -->
-                  <span class="method-name">isFifthMosqueLocationCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFifthMosqueWorkingHoursCorrect">
-                  </a> <!-- isFifthMosqueWorkingHoursCorrect -->
-                  <span class="method-name">isFifthMosqueWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFirstMosqueLocationCorrect">
-                  </a> <!-- isFirstMosqueLocationCorrect -->
-                  <span class="method-name">isFirstMosqueLocationCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFirstMosqueWorkingHoursCorrect">
-                  </a> <!-- isFirstMosqueWorkingHoursCorrect -->
-                  <span class="method-name">isFirstMosqueWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isFourthMosqueWorkingHoursCorrect">
-                  </a> <!-- isFourthMosqueWorkingHoursCorrect -->
-                  <span class="method-name">isFourthMosqueWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isMosqueTabDisplayed">
-                  </a> <!-- isMosqueTabDisplayed -->
-                  <span class="method-name">isMosqueTabDisplayed</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isSecondMosqueLocationCorrect">
-                  </a> <!-- isSecondMosqueLocationCorrect -->
-                  <span class="method-name">isSecondMosqueLocationCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isSecondMosqueWorkingHoursCorrect">
-                  </a> <!-- isSecondMosqueWorkingHoursCorrect -->
-                  <span class="method-name">isSecondMosqueWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isSuccessfullyRedirectedToGoogleMaps">
-                  </a> <!-- isSuccessfullyRedirectedToGoogleMaps -->
-                  <span class="method-name">isSuccessfullyRedirectedToGoogleMaps</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isThirdMosqueLocationCorrect">
-                  </a> <!-- isThirdMosqueLocationCorrect -->
-                  <span class="method-name">isThirdMosqueLocationCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isThirdMosqueWorkingHoursCorrect">
-                  </a> <!-- isThirdMosqueWorkingHoursCorrect -->
-                  <span class="method-name">isThirdMosqueWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-passed -->
-          <div class="suite-Default_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">MallsPageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -531,6 +403,13 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
                   <a name="areAllImagesDisplayed">
                   </a> <!-- areAllImagesDisplayed -->
                   <span class="method-name">areAllImagesDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFifthMallLocationCorrect">
+                  </a> <!-- isFifthMallLocationCorrect -->
+                  <span class="method-name">isFifthMallLocationCorrect</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -601,21 +480,6 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
                   <a name="isThirdMallWorkingHoursCorrect">
                   </a> <!-- isThirdMallWorkingHoursCorrect -->
                   <span class="method-name">isThirdMallWorkingHoursCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-passed -->
-          <div class="suite-Default_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ApplicationRunningTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="applicationIsOpen">
-                  </a> <!-- applicationIsOpen -->
-                  <span class="method-name">applicationIsOpen</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -705,6 +569,106 @@ Session ID: 4924cda5-8203-4d06-adbe-714e7bef0672
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MosquesPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFifthMosqueLocationCorrect">
+                  </a> <!-- isFifthMosqueLocationCorrect -->
+                  <span class="method-name">isFifthMosqueLocationCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFifthMosqueWorkingHoursCorrect">
+                  </a> <!-- isFifthMosqueWorkingHoursCorrect -->
+                  <span class="method-name">isFifthMosqueWorkingHoursCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFirstMosqueLocationCorrect">
+                  </a> <!-- isFirstMosqueLocationCorrect -->
+                  <span class="method-name">isFirstMosqueLocationCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFirstMosqueWorkingHoursCorrect">
+                  </a> <!-- isFirstMosqueWorkingHoursCorrect -->
+                  <span class="method-name">isFirstMosqueWorkingHoursCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFourthMosqueWorkingHoursCorrect">
+                  </a> <!-- isFourthMosqueWorkingHoursCorrect -->
+                  <span class="method-name">isFourthMosqueWorkingHoursCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isMosqueTabDisplayed">
+                  </a> <!-- isMosqueTabDisplayed -->
+                  <span class="method-name">isMosqueTabDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSecondMosqueLocationCorrect">
+                  </a> <!-- isSecondMosqueLocationCorrect -->
+                  <span class="method-name">isSecondMosqueLocationCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSecondMosqueWorkingHoursCorrect">
+                  </a> <!-- isSecondMosqueWorkingHoursCorrect -->
+                  <span class="method-name">isSecondMosqueWorkingHoursCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSuccessfullyRedirectedToGoogleMaps">
+                  </a> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+                  <span class="method-name">isSuccessfullyRedirectedToGoogleMaps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isThirdMosqueLocationCorrect">
+                  </a> <!-- isThirdMosqueLocationCorrect -->
+                  <span class="method-name">isThirdMosqueLocationCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isThirdMosqueWorkingHoursCorrect">
+                  </a> <!-- isThirdMosqueWorkingHoursCorrect -->
+                  <span class="method-name">isThirdMosqueWorkingHoursCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ApplicationRunningTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applicationIsOpen">
+                  </a> <!-- applicationIsOpen -->
+                  <span class="method-name">applicationIsOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
         </div> <!-- panel Default_Suite -->
         <div panel-name="test-xml-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -763,166 +727,166 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(39);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'isFirstMallLocationCorrect')
+data.setCell(0, 1, 'isSuccessfullyRedirectedToGoogleMaps')
 data.setCell(0, 2, 'MallsPageTests')
-data.setCell(0, 3, 8292);
+data.setCell(0, 3, 28884);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'isFifthMallLocationCorrect')
-data.setCell(1, 2, 'MallsPageTests')
-data.setCell(1, 3, 8139);
+data.setCell(1, 1, 'isSuccessfullyRedirectedToGoogleMaps')
+data.setCell(1, 2, 'MosquesPageTests')
+data.setCell(1, 3, 26599);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'isThirdMuseumLocationCorrect')
+data.setCell(2, 1, 'isSuccessfullyRedirectedToGoogleMaps')
 data.setCell(2, 2, 'MuseumsPageTests')
-data.setCell(2, 3, 8044);
+data.setCell(2, 3, 24497);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'isFirstMosqueLocationCorrect')
-data.setCell(3, 2, 'MosquesPageTests')
-data.setCell(3, 3, 7254);
+data.setCell(3, 1, 'isFifthMallLocationCorrect')
+data.setCell(3, 2, 'MallsPageTests')
+data.setCell(3, 3, 9317);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'isFirstMuseumLocationCorrect')
-data.setCell(4, 2, 'MuseumsPageTests')
-data.setCell(4, 3, 7021);
+data.setCell(4, 1, 'isThirdMallWorkingHoursCorrect')
+data.setCell(4, 2, 'MallsPageTests')
+data.setCell(4, 3, 8475);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'isFourthMallLocationCorrect')
+data.setCell(5, 1, 'isSecondMallWorkingHoursCorrect')
 data.setCell(5, 2, 'MallsPageTests')
-data.setCell(5, 3, 6018);
+data.setCell(5, 3, 8417);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'isThirdMosqueLocationCorrect')
-data.setCell(6, 2, 'MosquesPageTests')
-data.setCell(6, 3, 5814);
+data.setCell(6, 1, 'isFirstMallLocationCorrect')
+data.setCell(6, 2, 'MallsPageTests')
+data.setCell(6, 3, 7648);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'isSuccessfullyRedirectedToGoogleMaps')
-data.setCell(7, 2, 'MallsPageTests')
-data.setCell(7, 3, 5778);
+data.setCell(7, 1, 'isThirdMuseumLocationCorrect')
+data.setCell(7, 2, 'MuseumsPageTests')
+data.setCell(7, 3, 7149);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'isFifthMuseumLocationCorrect')
+data.setCell(8, 1, 'isFirstMuseumLocationCorrect')
 data.setCell(8, 2, 'MuseumsPageTests')
-data.setCell(8, 3, 5725);
+data.setCell(8, 3, 5799);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'isSuccessfullyRedirectedToGoogleMaps')
+data.setCell(9, 1, 'isFirstMosqueLocationCorrect')
 data.setCell(9, 2, 'MosquesPageTests')
-data.setCell(9, 3, 5657);
+data.setCell(9, 3, 5728);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'isThirdMallLocationCorrect')
 data.setCell(10, 2, 'MallsPageTests')
-data.setCell(10, 3, 5489);
+data.setCell(10, 3, 5538);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'isFifthMosqueLocationCorrect')
-data.setCell(11, 2, 'MosquesPageTests')
-data.setCell(11, 3, 5463);
+data.setCell(11, 1, 'isSecondMallLocationCorrect')
+data.setCell(11, 2, 'MallsPageTests')
+data.setCell(11, 3, 5520);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'isFourthMosqueLocationCorrect')
-data.setCell(12, 2, 'MosquesPageTests')
-data.setCell(12, 3, 5349);
+data.setCell(12, 1, 'isFifthMuseumLocationCorrect')
+data.setCell(12, 2, 'MuseumsPageTests')
+data.setCell(12, 3, 5398);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'isSecondMosqueLocationCorrect')
-data.setCell(13, 2, 'MosquesPageTests')
-data.setCell(13, 3, 5321);
+data.setCell(13, 1, 'isFourthMallLocationCorrect')
+data.setCell(13, 2, 'MallsPageTests')
+data.setCell(13, 3, 5368);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'isFourthMuseumLocationCorrect')
-data.setCell(14, 2, 'MuseumsPageTests')
-data.setCell(14, 3, 5056);
+data.setCell(14, 1, 'isThirdMosqueLocationCorrect')
+data.setCell(14, 2, 'MosquesPageTests')
+data.setCell(14, 3, 5217);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'isSecondMallLocationCorrect')
-data.setCell(15, 2, 'MallsPageTests')
-data.setCell(15, 3, 5000);
+data.setCell(15, 1, 'isSecondMosqueLocationCorrect')
+data.setCell(15, 2, 'MosquesPageTests')
+data.setCell(15, 3, 5183);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'isSecondMuseumLocationCorrect')
-data.setCell(16, 2, 'MuseumsPageTests')
-data.setCell(16, 3, 4985);
+data.setCell(16, 1, 'isFourthMosqueLocationCorrect')
+data.setCell(16, 2, 'MosquesPageTests')
+data.setCell(16, 3, 5100);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'isSuccessfullyRedirectedToGoogleMaps')
-data.setCell(17, 2, 'MuseumsPageTests')
-data.setCell(17, 3, 4928);
+data.setCell(17, 1, 'isFifthMosqueLocationCorrect')
+data.setCell(17, 2, 'MosquesPageTests')
+data.setCell(17, 3, 5075);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'areAllImagesDisplayed')
-data.setCell(18, 2, 'MallsPageTests')
-data.setCell(18, 3, 3993);
+data.setCell(18, 1, 'isSecondMuseumLocationCorrect')
+data.setCell(18, 2, 'MuseumsPageTests')
+data.setCell(18, 3, 4711);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'isSecondMallWorkingHoursCorrect')
-data.setCell(19, 2, 'MallsPageTests')
-data.setCell(19, 3, 3932);
+data.setCell(19, 1, 'isFourthMuseumLocationCorrect')
+data.setCell(19, 2, 'MuseumsPageTests')
+data.setCell(19, 3, 4471);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'isFifthMallWorkingHoursCorrect')
+data.setCell(20, 1, 'isFirstMallWorkingHoursCorrect')
 data.setCell(20, 2, 'MallsPageTests')
-data.setCell(20, 3, 3879);
+data.setCell(20, 3, 3483);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'areAllImagesDisplayed')
-data.setCell(21, 2, 'MuseumsPageTests')
-data.setCell(21, 3, 3430);
+data.setCell(21, 2, 'MallsPageTests')
+data.setCell(21, 3, 3362);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'isFourthMallWorkingHoursCorrect')
-data.setCell(22, 2, 'MallsPageTests')
-data.setCell(22, 3, 3246);
+data.setCell(22, 1, 'isMosqueTabDisplayed')
+data.setCell(22, 2, 'MosquesPageTests')
+data.setCell(22, 3, 3264);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'isThirdMallWorkingHoursCorrect')
-data.setCell(23, 2, 'MallsPageTests')
-data.setCell(23, 3, 3172);
+data.setCell(23, 1, 'isMuseumsTabDisplayed')
+data.setCell(23, 2, 'MuseumsPageTests')
+data.setCell(23, 3, 3170);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'isFourthMuseumWorkingHoursCorrect')
-data.setCell(24, 2, 'MuseumsPageTests')
-data.setCell(24, 3, 3159);
+data.setCell(24, 1, 'isFourthMallWorkingHoursCorrect')
+data.setCell(24, 2, 'MallsPageTests')
+data.setCell(24, 3, 3131);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'isFirstMallWorkingHoursCorrect')
-data.setCell(25, 2, 'MallsPageTests')
-data.setCell(25, 3, 3113);
+data.setCell(25, 1, 'isThirdMuseumWorkingHoursCorrect')
+data.setCell(25, 2, 'MuseumsPageTests')
+data.setCell(25, 3, 3124);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'isThirdMosqueWorkingHoursCorrect')
-data.setCell(26, 2, 'MosquesPageTests')
-data.setCell(26, 3, 3032);
+data.setCell(26, 1, 'areAllImagesDisplayed')
+data.setCell(26, 2, 'MuseumsPageTests')
+data.setCell(26, 3, 3108);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'isFirstMosqueWorkingHoursCorrect')
+data.setCell(27, 1, 'isThirdMosqueWorkingHoursCorrect')
 data.setCell(27, 2, 'MosquesPageTests')
-data.setCell(27, 3, 3032);
+data.setCell(27, 3, 3070);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'isFirstMuseumWorkingHoursCorrect')
-data.setCell(28, 2, 'MuseumsPageTests')
-data.setCell(28, 3, 2961);
+data.setCell(28, 1, 'isFifthMallWorkingHoursCorrect')
+data.setCell(28, 2, 'MallsPageTests')
+data.setCell(28, 3, 3047);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'isFourthMosqueWorkingHoursCorrect')
 data.setCell(29, 2, 'MosquesPageTests')
-data.setCell(29, 3, 2947);
+data.setCell(29, 3, 2936);
 data.setCell(30, 0, 30)
 data.setCell(30, 1, 'isFifthMosqueWorkingHoursCorrect')
 data.setCell(30, 2, 'MosquesPageTests')
-data.setCell(30, 3, 2910);
+data.setCell(30, 3, 2933);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'isFifthMuseumWorkingHoursCorrect')
-data.setCell(31, 2, 'MuseumsPageTests')
-data.setCell(31, 3, 2906);
+data.setCell(31, 1, 'isSecondMosqueWorkingHoursCorrect')
+data.setCell(31, 2, 'MosquesPageTests')
+data.setCell(31, 3, 2880);
 data.setCell(32, 0, 32)
 data.setCell(32, 1, 'isSecondMuseumWorkingHoursCorrect')
 data.setCell(32, 2, 'MuseumsPageTests')
-data.setCell(32, 3, 2888);
+data.setCell(32, 3, 2800);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'isSecondMosqueWorkingHoursCorrect')
+data.setCell(33, 1, 'isFirstMosqueWorkingHoursCorrect')
 data.setCell(33, 2, 'MosquesPageTests')
-data.setCell(33, 3, 2877);
+data.setCell(33, 3, 2762);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'isThirdMuseumWorkingHoursCorrect')
+data.setCell(34, 1, 'isFourthMuseumWorkingHoursCorrect')
 data.setCell(34, 2, 'MuseumsPageTests')
-data.setCell(34, 3, 2876);
+data.setCell(34, 3, 2757);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'isMallsTabDisplayed')
-data.setCell(35, 2, 'MallsPageTests')
-data.setCell(35, 3, 2718);
+data.setCell(35, 1, 'isFifthMuseumWorkingHoursCorrect')
+data.setCell(35, 2, 'MuseumsPageTests')
+data.setCell(35, 3, 2749);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'applicationIsOpen')
-data.setCell(36, 2, 'ApplicationRunningTest')
-data.setCell(36, 3, 2588);
+data.setCell(36, 1, 'isMallsTabDisplayed')
+data.setCell(36, 2, 'MallsPageTests')
+data.setCell(36, 3, 2738);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'isMosqueTabDisplayed')
-data.setCell(37, 2, 'MosquesPageTests')
-data.setCell(37, 3, 2517);
+data.setCell(37, 1, 'isFirstMuseumWorkingHoursCorrect')
+data.setCell(37, 2, 'MuseumsPageTests')
+data.setCell(37, 3, 2729);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'isMuseumsTabDisplayed')
-data.setCell(38, 2, 'MuseumsPageTests')
-data.setCell(38, 3, 2271);
+data.setCell(38, 1, 'applicationIsOpen')
+data.setCell(38, 2, 'ApplicationRunningTest')
+data.setCell(38, 3, 1786);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -937,9 +901,45 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">MallsPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configureExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">MuseumsPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configureExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">MosquesPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configureExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Page</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configureExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_Suite" class="panel">
@@ -949,213 +949,502 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">ApplicationRunningTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
+              <div class="configuration-test before">
+                <span class="method-name">configureExtent</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">applicationIsOpen</span>
-                <span class="method-start">7546 ms</span>
+                <span class="method-start">3764 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">10134 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=applicationIsOpen status=SUCCESS method=ApplicationRunningTest.applicationIsOpen()[...)</span>
+                <span class="method-start">5550 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MallsPageTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10255 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">5663 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">areAllImagesDisplayed</span>
-                <span class="method-start">13552 ms</span>
+                <span class="method-start">8885 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=areAllImagesDisplayed status=SUCCESS method=MallsPageTests.areAllImagesDisplayed()[...)</span>
+                <span class="method-start">12247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12362 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">isFifthMallLocationCorrect</span>
-                <span class="method-start">17545 ms</span>
+                <span class="method-start">15568 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMallLocationCorrect status=SUCCESS method=MallsPageTests.isFifthMallLocation...)</span>
+                <span class="method-start">24885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24989 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFifthMallWorkingHoursCorrect</span>
-                <span class="method-start">25690 ms</span>
+                <span class="method-start">28271 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFifthMallWork...)</span>
+                <span class="method-start">31318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31413 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">isFirstMallLocationCorrect</span>
-                <span class="method-start">29569 ms</span>
+                <span class="method-start">34795 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMallLocationCorrect status=FAILURE method=MallsPageTests.isFirstMallLocation...)</span>
+                <span class="method-start">42448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43647 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFirstMallWorkingHoursCorrect</span>
-                <span class="method-start">37862 ms</span>
+                <span class="method-start">47203 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFirstMallWork...)</span>
+                <span class="method-start">50686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50792 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFourthMallLocationCorrect</span>
-                <span class="method-start">40975 ms</span>
+                <span class="method-start">54102 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMallLocationCorrect status=SUCCESS method=MallsPageTests.isFourthMallLocati...)</span>
+                <span class="method-start">59470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59604 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFourthMallWorkingHoursCorrect</span>
-                <span class="method-start">46993 ms</span>
+                <span class="method-start">62999 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFourthMallWo...)</span>
+                <span class="method-start">66130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66227 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isMallsTabDisplayed</span>
-                <span class="method-start">50239 ms</span>
+                <span class="method-start">69569 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isMallsTabDisplayed status=SUCCESS method=MallsPageTests.isMallsTabDisplayed()[pri:...)</span>
+                <span class="method-start">72307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72404 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSecondMallLocationCorrect</span>
-                <span class="method-start">52957 ms</span>
+                <span class="method-start">75794 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMallLocationCorrect status=SUCCESS method=MallsPageTests.isSecondMallLocati...)</span>
+                <span class="method-start">81314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81439 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSecondMallWorkingHoursCorrect</span>
-                <span class="method-start">57957 ms</span>
+                <span class="method-start">84845 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isSecondMallWo...)</span>
+                <span class="method-start">93262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93362 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSuccessfullyRedirectedToGoogleMaps</span>
-                <span class="method-start">61889 ms</span>
+                <span class="method-start">96654 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MallsPageTests.isSuccess...)</span>
+                <span class="method-start">125538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125637 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMallLocationCorrect</span>
-                <span class="method-start">67668 ms</span>
+                <span class="method-start">128896 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMallLocationCorrect status=SUCCESS method=MallsPageTests.isThirdMallLocation...)</span>
+                <span class="method-start">134434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134659 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMallWorkingHoursCorrect</span>
-                <span class="method-start">73157 ms</span>
+                <span class="method-start">139084 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">76329 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isThirdMallWork...)</span>
+                <span class="method-start">147559 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MosquesPageTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">76431 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">147668 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFifthMosqueLocationCorrect</span>
-                <span class="method-start">79764 ms</span>
+                <span class="method-start">150921 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isFifthMosqueLo...)</span>
+                <span class="method-start">155996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">156118 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFifthMosqueWorkingHoursCorrect</span>
-                <span class="method-start">85227 ms</span>
+                <span class="method-start">159533 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFifthMosq...)</span>
+                <span class="method-start">162466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">162560 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFirstMosqueLocationCorrect</span>
-                <span class="method-start">88137 ms</span>
+                <span class="method-start">165753 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isFirstMosqueLo...)</span>
+                <span class="method-start">171481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">171604 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFirstMosqueWorkingHoursCorrect</span>
-                <span class="method-start">95391 ms</span>
+                <span class="method-start">175038 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFirstMosq...)</span>
+                <span class="method-start">177800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">177896 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">isFourthMosqueLocationCorrect</span>
-                <span class="method-start">98423 ms</span>
+                <span class="method-start">181114 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMosqueLocationCorrect status=FAILURE method=MosquesPageTests.isFourthMosque...)</span>
+                <span class="method-start">186214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">186904 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFourthMosqueWorkingHoursCorrect</span>
-                <span class="method-start">103773 ms</span>
+                <span class="method-start">190372 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFourthMo...)</span>
+                <span class="method-start">193308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">193405 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isMosqueTabDisplayed</span>
-                <span class="method-start">106721 ms</span>
+                <span class="method-start">196787 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isMosqueTabDisplayed status=SUCCESS method=MosquesPageTests.isMosqueTabDisplayed()[...)</span>
+                <span class="method-start">200051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">200164 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSecondMosqueLocationCorrect</span>
-                <span class="method-start">109238 ms</span>
+                <span class="method-start">203398 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isSecondMosque...)</span>
+                <span class="method-start">208582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">208700 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSecondMosqueWorkingHoursCorrect</span>
-                <span class="method-start">114559 ms</span>
+                <span class="method-start">212055 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isSecondMo...)</span>
+                <span class="method-start">214935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">215030 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSuccessfullyRedirectedToGoogleMaps</span>
-                <span class="method-start">117436 ms</span>
+                <span class="method-start">218264 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MosquesPageTests.isSucce...)</span>
+                <span class="method-start">244863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">245001 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMosqueLocationCorrect</span>
-                <span class="method-start">123093 ms</span>
+                <span class="method-start">248451 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isThirdMosqueLo...)</span>
+                <span class="method-start">253668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">253764 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMosqueWorkingHoursCorrect</span>
-                <span class="method-start">128907 ms</span>
+                <span class="method-start">258193 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">131940 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isThirdMosq...)</span>
+                <span class="method-start">261264 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MuseumsPageTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">132067 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">261365 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">areAllImagesDisplayed</span>
-                <span class="method-start">135345 ms</span>
+                <span class="method-start">264641 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=areAllImagesDisplayed status=SUCCESS method=MuseumsPageTests.areAllImagesDisplayed(...)</span>
+                <span class="method-start">267749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">267846 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">isFifthMuseumLocationCorrect</span>
-                <span class="method-start">138775 ms</span>
+                <span class="method-start">271069 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMuseumLocationCorrect status=FAILURE method=MuseumsPageTests.isFifthMuseumLo...)</span>
+                <span class="method-start">276467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">277718 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFifthMuseumWorkingHoursCorrect</span>
-                <span class="method-start">144500 ms</span>
+                <span class="method-start">280969 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFifthMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFifthMuse...)</span>
+                <span class="method-start">283718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">283818 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFirstMuseumLocationCorrect</span>
-                <span class="method-start">147406 ms</span>
+                <span class="method-start">287164 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isFirstMuseumLo...)</span>
+                <span class="method-start">292963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">293084 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFirstMuseumWorkingHoursCorrect</span>
-                <span class="method-start">154427 ms</span>
+                <span class="method-start">296586 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFirstMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFirstMuse...)</span>
+                <span class="method-start">299315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">299416 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFourthMuseumLocationCorrect</span>
-                <span class="method-start">157389 ms</span>
+                <span class="method-start">302643 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isFourthMuseum...)</span>
+                <span class="method-start">307114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">307230 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isFourthMuseumWorkingHoursCorrect</span>
-                <span class="method-start">162445 ms</span>
+                <span class="method-start">310474 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isFourthMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFourthMu...)</span>
+                <span class="method-start">313231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">313327 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isMuseumsTabDisplayed</span>
-                <span class="method-start">165604 ms</span>
+                <span class="method-start">316762 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isMuseumsTabDisplayed status=SUCCESS method=MuseumsPageTests.isMuseumsTabDisplayed(...)</span>
+                <span class="method-start">319932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">320060 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">isSecondMuseumLocationCorrect</span>
-                <span class="method-start">167875 ms</span>
+                <span class="method-start">323320 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMuseumLocationCorrect status=FAILURE method=MuseumsPageTests.isSecondMuseum...)</span>
+                <span class="method-start">328031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">328640 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSecondMuseumWorkingHoursCorrect</span>
-                <span class="method-start">172861 ms</span>
+                <span class="method-start">332150 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSecondMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isSecondMu...)</span>
+                <span class="method-start">334950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">335048 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isSuccessfullyRedirectedToGoogleMaps</span>
-                <span class="method-start">175749 ms</span>
+                <span class="method-start">338265 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MuseumsPageTests.isSucce...)</span>
+                <span class="method-start">362762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">362884 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMuseumLocationCorrect</span>
-                <span class="method-start">180677 ms</span>
+                <span class="method-start">366218 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isThirdMuseumLo...)</span>
+                <span class="method-start">373367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">373489 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isThirdMuseumWorkingHoursCorrect</span>
-                <span class="method-start">188721 ms</span>
+                <span class="method-start">377885 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">191598 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">updateReport([TestResult name=isThirdMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isThirdMuse...)</span>
+                <span class="method-start">381009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApplicationRunningTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">381110 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

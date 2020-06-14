@@ -1,116 +1,158 @@
 
+import com.aventstack.extentreports.ExtentTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class MosquesPageTests extends Page {
-    String googleMapActivity = "com.google.android.maps.MapsActivity";
 
+
+    public void navigateToMosquesTab()
+    {
+        launchApp();
+        //click mall tab
+        clickTabItem(2);
+
+    }
     @Test
     public void isMosqueTabDisplayed() {
-        launchApp();
-        //click mosque tab
-        clickTabItem(2);
+        test = extent.createTest("Check if All Mosques List is Displayed");
+
+        navigateToMosquesTab();
         assertTrue(isTabSelected(2));
-        assertEquals("King Khalid Grand Mosque", getCurrentItemText(1, 1));
+
     }
 
     @Test
     public void isSuccessfullyRedirectedToGoogleMaps() {
-        isMosqueTabDisplayed();
-        //click first mosque
-        clickListItem(1);
-        //is google map open
-        assertEquals(googleMapActivity, isCurrentActivity());
+        test = extent.createTest("Check if every Mosque switch To GMAPS when Clicked");
+
+        int listSize = 5;
+        for (int i = 1; i <= listSize; i++) {
+            navigateToMosquesTab();
+            clickListItem(i);
+            //is google map open
+            assertEquals(isCurrentActivity(),googleMapActivity);
+        }
+
     }
 
     @Test
     public void isFirstMosqueLocationCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if Location of The First Mosque Is Correct");
+
+        navigateToMosquesTab();
         //click first mosque
         clickListItem(1);
         implicitlyWait(3);
         // is location correct
-        assertEquals("Umm Al Hamam St", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"Umm Al Hamam St");
+
 
     }
 
     @Test
     public void isSecondMosqueLocationCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if Location of The Second Mosque Is Correct");
+
+        navigateToMosquesTab();
         //click second mosque
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
-        assertEquals("7084 Al Akheyar, Al Jazirah", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"7084 Al Akheyar, Al Jazirah");
+
 
     }
 
     @Test
     public void isThirdMosqueLocationCorrect() {
-        isMosqueTabDisplayed();
-        //click third mosque
+        test = extent.createTest("Check if Location of The Third Mosque Is Correct");
+
+        navigateToMosquesTab();
         clickListItem(3);
         implicitlyWait(3);
         // is location correct
-        assertEquals("King Abdullah Branch Rd", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"King Abdullah Branch Rd");
+
 
     }
 
     @Test
     public void isFourthMosqueLocationCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if Location of The Fourth Mosque Is Correct");
+
+        navigateToMosquesTab();
         //click forth mosque
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
-        assertEquals("Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque");
 
     }
 
     @Test
     public void isFifthMosqueLocationCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if Location of The Fifth Mosque Is Correct");
+
+        navigateToMosquesTab();
+
         //click fifth mosque
         clickListItem(5);
         implicitlyWait(3);
         // is location correct
-        assertEquals("7110 Uthman Ibn Affan Branch Rd, Al Izdihar", isLocationCorrect());
+        assertEquals(isLocationCorrect(),"7110 Uthman Ibn Affan Branch Rd, Al Izdihar");
+
     }
 
     @Test
     public void isFirstMosqueWorkingHoursCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The First Mosque Is Correct");
+
+        navigateToMosquesTab();
         // is working hours correct
-        assertEquals("Working Hours: Always Open", getCurrentItemText(1, 2));
+        assertEquals( getCurrentItemText(1, 2),"Working Hours: Always Open");
+
     }
 
     @Test
     public void isSecondMosqueWorkingHoursCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Second Mosque Is Correct");
+
+        navigateToMosquesTab();
         // is working hours correct
-        assertEquals("Working Hours: Always Open", getCurrentItemText(2, 2));
+        assertEquals( getCurrentItemText(2, 2),"Working Hours: Always Open");
+
     }
 
     @Test
     public void isThirdMosqueWorkingHoursCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Third Mosque Is Correct");
+
+        navigateToMosquesTab();
         // is working hours correct
-        assertEquals("Working Hours: Always Open", getCurrentItemText(3, 2));
+        assertEquals( getCurrentItemText(3, 2),"Working Hours: Always Open");
+
     }
 
     @Test
     public void isFourthMosqueWorkingHoursCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Fourth Mosque Is Correct");
+
+        navigateToMosquesTab();
         // is working hours correct
-        assertEquals("Working Hours: Always Open", getCurrentItemText(4, 2));
+        assertEquals(getCurrentItemText(4, 2),"Working Hours: Always Open");
+
     }
 
     @Test
     public void isFifthMosqueWorkingHoursCorrect() {
-        isMosqueTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Fifth Mosque Is Correct");
+
+        navigateToMosquesTab();
         // is working hours correct
-        assertEquals("Working Hours: Always Open", getCurrentItemText(5, 2));
+        assertEquals( getCurrentItemText(5, 2),"Working Hours: Always Open");
+
     }
 
 

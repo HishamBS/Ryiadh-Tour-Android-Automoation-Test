@@ -3,29 +3,34 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Riyadh_Tour_Automation_TESTNG(failed)">
     <classes>
-      <class name="MosquesPageTests">
-        <methods>
-          <include name="isFourthMosqueLocationCorrect"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MosquesPageTests -->
       <class name="MallsPageTests">
         <methods>
+          <include name="configureExtent"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="isFifthMallLocationCorrect"/>
+          <include name="endReport"/>
           <include name="isFirstMallLocationCorrect"/>
+          <include name="updateReport"/>
         </methods>
       </class> <!-- MallsPageTests -->
       <class name="MuseumsPageTests">
         <methods>
+          <include name="configureExtent"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="endReport"/>
           <include name="isSecondMuseumLocationCorrect"/>
           <include name="isFifthMuseumLocationCorrect"/>
+          <include name="updateReport"/>
         </methods>
       </class> <!-- MuseumsPageTests -->
+      <class name="MosquesPageTests">
+        <methods>
+          <include name="isFourthMosqueLocationCorrect"/>
+          <include name="configureExtent"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="updateReport"/>
+        </methods>
+      </class> <!-- MosquesPageTests -->
     </classes>
   </test> <!-- Riyadh_Tour_Automation_TESTNG(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

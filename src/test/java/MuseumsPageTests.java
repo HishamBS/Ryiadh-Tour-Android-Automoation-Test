@@ -1,3 +1,4 @@
+import com.aventstack.extentreports.ExtentTest;
 import org.springframework.core.annotation.Order;
 import org.testng.annotations.Test;
 
@@ -5,52 +6,72 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class MuseumsPageTests extends Page {
-    String googleMapActivity = "com.google.android.maps.MapsActivity";
 
+
+    public void navigateToMuseumsTab()
+    {
+        launchApp();
+        //click mall tab
+        clickTabItem(1);
+
+    }
 
     @Test
     public void isMuseumsTabDisplayed() {
-        launchApp();
-        //click museum tab
-        clickTabItem(1);
+        test = extent.createTest("Check if All Museums List is Displayed");
+
+        navigateToMuseumsTab();
         assertTrue(isTabSelected(1));
-        assertEquals("King Abdulaziz Historical Center", getCurrentItemText(1, 1));
+
     }
 
     @Test
     public void isSuccessfullyRedirectedToGoogleMaps() {
-        isMuseumsTabDisplayed();
-        //click first museum
-        clickListItem(1);
-        //is google map open
-        assertEquals(googleMapActivity, isCurrentActivity());
+        test = extent.createTest("Check if every Museum  switch To GMAPS when Clicked");
+
+        int listSize = 5;
+        for (int i = 1; i <= listSize; i++) {
+            navigateToMuseumsTab();
+            clickListItem(i);
+            //is google map open
+            assertEquals(isCurrentActivity(),googleMapActivity);
+        }
+
     }
 
     @Test
     public void isFirstMuseumLocationCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if Location of The First Museum Is Correct");
+
+        navigateToMuseumsTab();
         //click first museum
         clickListItem(1);
         implicitlyWait(3);
         // is location correct
-        assertEquals("King Faisal Road", isLocationCorrect());
+        assertEquals(isLocationCorrect(),"King Faisal Road");
+
 
     }
 
     @Test
     public void isSecondMuseumLocationCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if Location of The Second Museum Is Correct");
+
+        navigateToMuseumsTab();
         //click second museum
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
-        assertEquals("Saqr Aljazeera Aviation Museum", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"Saqr Aljazeera Aviation Museum");
+
 
     }
 
     @Test
     public void isThirdMuseumLocationCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if Location of The Third Museum Is Correct");
+
+        navigateToMuseumsTab();
         //click third museum
         clickListItem(3);
         implicitlyWait(3);
@@ -59,69 +80,90 @@ public class MuseumsPageTests extends Page {
 //        click("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ViewSwitcher/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[1]");
         // is location correct
         implicitlyWait(7);
-        assertEquals("Al Masmak Palace Museum", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"Al Masmak Palace Museum");
 
     }
 
     @Test
     public void isFourthMuseumLocationCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if Location of The Fourth Museum Is Correct");
+
+        navigateToMuseumsTab();
+
         //click forth museum
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
-        assertEquals("2722 الملك سعود، Al Murabba", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"2722 الملك سعود، Al Murabba");
 
     }
 
     @Test
     public void isFifthMuseumLocationCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if Location of The Fifth Museum Is Correct");
+
+        navigateToMuseumsTab();
         //click fifth museum
         clickListItem(5);
         implicitlyWait(3);
         // is location correct
-        assertEquals("King Salman Science Oasis", isLocationCorrect());
+        assertEquals( isLocationCorrect(),"King Salman Science Oasis");
+
     }
 
     @Test
     public void isFirstMuseumWorkingHoursCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The First Museum Is Correct");
+
+        navigateToMuseumsTab();
+
         // is working hours correct
-        assertEquals("Working Hours: 8AM-9PM", getCurrentItemText(1, 2));
+        assertEquals( getCurrentItemText(1, 2),"Working Hours: 8AM-9PM");
+
     }
 
     @Test
     public void isSecondMuseumWorkingHoursCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Second Museum Is Correct");
+        navigateToMuseumsTab();
         // is working hours correct
-        assertEquals("Working Hours: 8AM-8PM", getCurrentItemText(2, 2));
+        assertEquals( getCurrentItemText(2, 2),"Working Hours: 8AM-8PM");
+
     }
 
     @Test
     public void isThirdMuseumWorkingHoursCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Third Museum Is Correct");
+        navigateToMuseumsTab();
+
         // is working hours correct
-        assertEquals("Working Hours: 8AM-9PM", getCurrentItemText(3, 2));
+        assertEquals( getCurrentItemText(3, 2),"Working Hours: 8AM-9PM");
+
     }
 
     @Test
     public void isFourthMuseumWorkingHoursCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Fourth Museum Is Correct");
+        navigateToMuseumsTab();
         // is working hours correct
-        assertEquals("Working Hours: 8AM-9PM", getCurrentItemText(4, 2));
+        assertEquals( getCurrentItemText(4, 2),"Working Hours: 8AM-9PM");
+
     }
 
     @Test
     public void isFifthMuseumWorkingHoursCorrect() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if The Working hours of The Fifth Museum Is Correct");
+        navigateToMuseumsTab();
         // is working hours correct
-        assertEquals("Working Hours: 8AM-8PM", getCurrentItemText(5, 2));
+        assertEquals( getCurrentItemText(5, 2),"Working Hours: 8AM-8PM");
+
     }
 
     @Test
     public void areAllImagesDisplayed() {
-        isMuseumsTabDisplayed();
+        test = extent.createTest("Check if All Museums Images Are Displayed");
+
+        navigateToMuseumsTab();
         // are all 5 images displayed
         assertTrue(isImageDisplayed(1));
         assertTrue(isImageDisplayed(2));

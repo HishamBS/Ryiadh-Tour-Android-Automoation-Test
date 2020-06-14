@@ -9,6 +9,7 @@ public class ApplicationRunningTest extends Page
     // Test Application Open and show home screen
     @Test
     public void applicationIsOpen() {
+        test = extent.createTest("Check If Application Launches Successfully");
         launchApp();
         String tabTitle = driver.findElement(By.xpath(homePageXpath)).getText();
         assertEquals("Riyadh Tour",tabTitle);
