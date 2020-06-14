@@ -84,16 +84,6 @@ public class Page {
     }
 
 
-//    @BeforeMethod
-//    public void setup(Method method) {
-//        String testMethodName = method.getName(); //This will be:verifySaveButtonEnabled
-//        String descriptiveTestName = method.getAnnotation(Test.class).testName(); //This will be: 'Verify if the save button is enabled'
-////        test = extent.createTest(descriptiveTestName);
-//        test.createNode(descriptiveTestName);
-//
-//
-//    }
-
     @AfterMethod
     public void updateReport(ITestResult result, Method method) throws IOException {
         String descriptiveTestName = method.getAnnotation(Test.class).testName();
