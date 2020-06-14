@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class MallsPageTests extends Page {
+public class TS03_Malls extends Page {
 
 
     public void navigateToMallsTab()
@@ -14,31 +14,27 @@ public class MallsPageTests extends Page {
         clickTabItem(3);
 
     }
-    @Test
+    @Test(testName = "TC03.01 : Verify If All Malls Are Displayed")
     public void isMallsTabDisplayed() {
-        test = extent.createTest("Check if All Malls List is Displayed");
         navigateToMallsTab();
         assertTrue(isTabSelected(3));
     }
 
-    @Test
+    @Test(testName = "TC03.02 : Verify If All Malls Switch to GMAPS When Clicked")
     public void isSuccessfullyRedirectedToGoogleMaps() {
-        test = extent.createTest("Check if every Mall switch To GMAPS when Clicked");
         int listSize = 5;
         for (int i = 1; i <= listSize; i++) {
             navigateToMallsTab();
             clickListItem(i);
             //is google map open
+            implicitlyWait(3);
             assertEquals(isCurrentActivity(),googleMapActivity);
         }
-
     }
 
 
-    @Test
+    @Test(testName = "TC03.03 : Verify If Location of The First Mall Is Correct")
     public void isFirstMallLocationCorrect() {
-        test = extent.createTest("Check if Location of The First Mall Is Correct");
-
         navigateToMallsTab();
         //click first mall
         clickListItem(1);
@@ -47,52 +43,40 @@ public class MallsPageTests extends Page {
         // is location correct
         implicitlyWait(7);
         assertEquals( isLocationCorrect(),"Al Nakheel Mall");
-
     }
 
-    @Test
+    @Test(testName = "TC03.04 : Verify If Location of The Second Mall Is Correct")
     public void isSecondMallLocationCorrect() {
-        test = extent.createTest("Check if Location of The Second Mall Is Correct");
-
         navigateToMallsTab();
         //click second mall
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
         assertEquals( isLocationCorrect(),"Olaya St");
-
     }
 
-    @Test
+    @Test(testName = "TC03.05 : Verify If Location of The Third Mall Is Correct")
     public void isThirdMallLocationCorrect() {
-        test = extent.createTest("Check if Location of The Third Mall Is Correct");
-
         navigateToMallsTab();
         //click third mall
         clickListItem(3);
         implicitlyWait(3);
         // is location correct
         assertEquals(isLocationCorrect(),"King Fahd Rd");
-
     }
 
-    @Test
+    @Test(testName = "TC03.06 : Verify If Location of The Fourth Mall Is Correct")
     public void isFourthMallLocationCorrect() {
-        test = extent.createTest("Check if Location of The Fourth Mall Is Correct");
-
         navigateToMallsTab();
         //click forth mall
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
         assertEquals( isLocationCorrect(),"King Abdul Aziz Rd");
-
     }
 
-    @Test
+    @Test(testName = "TC03.07 : Verify If Location of The Fifth Mall Is Correct")
     public void isFifthMallLocationCorrect() {
-        test = extent.createTest("Check if Location of The Fifth Mall Is Correct");
-
         navigateToMallsTab();
         //click fifth mall
         clickListItem(5);
@@ -104,56 +88,45 @@ public class MallsPageTests extends Page {
         assertEquals(fifthMall,"غرناطة مول Granada Mall");
     }
 
-    @Test
+    @Test(testName = "TC03.08 : Verify If The Working hours of The First Mall Is Correct")
     public void isFirstMallWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The First Mall Is Correct");
-
         navigateToMallsTab();
         // is working hours correct
         assertEquals(getCurrentItemText(1, 2),"Working Hours: 9:30AM-11PM");
     }
 
-    @Test
+    @Test(testName = "TC03.09 : Verify If The Working hours of The Second Mall Is Correct")
     public void isSecondMallWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Second Mall Is Correct");
-
         navigateToMallsTab();
         isMallsTabDisplayed();
         // is working hours correct
         assertEquals(getCurrentItemText(2, 2),"Working Hours: 10AM-10:30PM");
     }
 
-    @Test
+    @Test(testName = "TC03.10 : Verify If The Working hours of The Third Mall Is Correct")
     public void isThirdMallWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Third Mall Is Correct");
-
         navigateToMallsTab();
         isMallsTabDisplayed();
         // is working hours correct
         assertEquals(getCurrentItemText(3, 2),"Working Hours: 8AM-12AM");
     }
 
-    @Test
+    @Test(testName = "TC03.11: Verify If The Working hours of The Fourth Mall Is Correct")
     public void isFourthMallWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Fourth Mall Is Correct");
         navigateToMallsTab();
         // is working hours correct
         assertEquals(getCurrentItemText(4, 2),"Working Hours: 8AM-1AM");
     }
 
-    @Test
+    @Test(testName = "TC03.12 : Verify If The Working hours of The Fifth Mall Is Correct")
     public void isFifthMallWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Fifth Mall Is Correct");
-
         navigateToMallsTab();
         // is working hours correct
         assertEquals( getCurrentItemText(5, 2),"Working Hours: 9AM-11PM");
     }
 
-    @Test
+    @Test(testName = "TC03.13 : Verify If All Malls Images Are Displayed")
     public void areAllImagesDisplayed() {
-        test = extent.createTest("Check if All Malls Images Are Displayed");
-
         navigateToMallsTab();
         // are all 5 images displayed
         assertTrue(isImageDisplayed(1));
@@ -161,8 +134,6 @@ public class MallsPageTests extends Page {
         assertTrue(isImageDisplayed(3));
         assertTrue(isImageDisplayed(4));
         assertTrue(isImageDisplayed(5));
-
-
     }
 
 

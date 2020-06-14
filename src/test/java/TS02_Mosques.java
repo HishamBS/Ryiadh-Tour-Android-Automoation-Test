@@ -1,158 +1,120 @@
 
 import com.aventstack.extentreports.ExtentTest;
 import org.testng.annotations.Test;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class MosquesPageTests extends Page {
+public class TS02_Mosques extends Page {
 
 
-    public void navigateToMosquesTab()
-    {
+    public void navigateToMosquesTab() {
         launchApp();
         //click mall tab
         clickTabItem(2);
 
     }
-    @Test
-    public void isMosqueTabDisplayed() {
-        test = extent.createTest("Check if All Mosques List is Displayed");
 
+    @Test(testName = "TC02.01 : Verify If All Mosques Are Displayed")
+    public void isMosqueTabDisplayed() {
         navigateToMosquesTab();
         assertTrue(isTabSelected(2));
-
     }
 
-    @Test
+    @Test(testName = "TC02.02 : Verify If All Mosques Switch to GMAPS When Clicked")
     public void isSuccessfullyRedirectedToGoogleMaps() {
-        test = extent.createTest("Check if every Mosque switch To GMAPS when Clicked");
-
         int listSize = 5;
         for (int i = 1; i <= listSize; i++) {
             navigateToMosquesTab();
             clickListItem(i);
             //is google map open
-            assertEquals(isCurrentActivity(),googleMapActivity);
+            implicitlyWait(3);
+            assertEquals(isCurrentActivity(), googleMapActivity);
         }
-
     }
 
-    @Test
+    @Test(testName = "TC02.03 : Verify If Location of The First Mosque Is Correct")
     public void isFirstMosqueLocationCorrect() {
-        test = extent.createTest("Check if Location of The First Mosque Is Correct");
-
         navigateToMosquesTab();
         //click first mosque
         clickListItem(1);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"Umm Al Hamam St");
-
-
+        assertEquals(isLocationCorrect(), "Umm Al Hamam St");
     }
 
-    @Test
+    @Test(testName = "TC02.04 : Verify If Location of The Second Mosque Is Correct")
     public void isSecondMosqueLocationCorrect() {
-        test = extent.createTest("Check if Location of The Second Mosque Is Correct");
-
         navigateToMosquesTab();
         //click second mosque
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"7084 Al Akheyar, Al Jazirah");
-
-
+        assertEquals(isLocationCorrect(), "7084 Al Akheyar, Al Jazirah");
     }
 
-    @Test
+    @Test(testName = "TC02.05 : Verify If Location of The Third Mosque Is Correct")
     public void isThirdMosqueLocationCorrect() {
-        test = extent.createTest("Check if Location of The Third Mosque Is Correct");
-
         navigateToMosquesTab();
         clickListItem(3);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"King Abdullah Branch Rd");
-
-
+        assertEquals(isLocationCorrect(), "King Abdullah Branch Rd");
     }
 
-    @Test
+    @Test(testName = "TC02.06 : Verify If Location of The Fourth Mosque Is Correct")
     public void isFourthMosqueLocationCorrect() {
-        test = extent.createTest("Check if Location of The Fourth Mosque Is Correct");
-
         navigateToMosquesTab();
         //click forth mosque
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque");
-
+        assertEquals(isLocationCorrect(), "Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque");
     }
 
-    @Test
+    @Test(testName = "TC02.07 : Verify If Location of The Fifth Mosque Is Correct")
     public void isFifthMosqueLocationCorrect() {
-        test = extent.createTest("Check if Location of The Fifth Mosque Is Correct");
-
         navigateToMosquesTab();
-
         //click fifth mosque
         clickListItem(5);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(),"7110 Uthman Ibn Affan Branch Rd, Al Izdihar");
-
+        assertEquals(isLocationCorrect(), "7110 Uthman Ibn Affan Branch Rd, Al Izdihar");
     }
 
-    @Test
+    @Test(testName = "TC02.08 : Verify If The Working hours of The First Mosque Is Correct")
     public void isFirstMosqueWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The First Mosque Is Correct");
-
         navigateToMosquesTab();
         // is working hours correct
-        assertEquals( getCurrentItemText(1, 2),"Working Hours: Always Open");
-
+        assertEquals(getCurrentItemText(1, 2), "Working Hours: Always Open");
     }
 
-    @Test
+    @Test(testName = "TC02.09 : Verify If The Working hours of The Second Mosque Is Correct")
     public void isSecondMosqueWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Second Mosque Is Correct");
-
         navigateToMosquesTab();
         // is working hours correct
-        assertEquals( getCurrentItemText(2, 2),"Working Hours: Always Open");
-
+        assertEquals(getCurrentItemText(2, 2), "Working Hours: Always Open");
     }
 
-    @Test
+    @Test(testName = "TC02.10 : Verify If The Working hours of The Third Mosque Is Correct")
     public void isThirdMosqueWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Third Mosque Is Correct");
-
         navigateToMosquesTab();
         // is working hours correct
-        assertEquals( getCurrentItemText(3, 2),"Working Hours: Always Open");
-
+        assertEquals(getCurrentItemText(3, 2), "Working Hours: Always Open");
     }
 
-    @Test
+    @Test(testName = "TC02.11 : Verify If The Working hours of The Fourth Mosque Is Correct")
     public void isFourthMosqueWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Fourth Mosque Is Correct");
-
         navigateToMosquesTab();
         // is working hours correct
-        assertEquals(getCurrentItemText(4, 2),"Working Hours: Always Open");
-
+        assertEquals(getCurrentItemText(4, 2), "Working Hours: Always Open");
     }
 
-    @Test
+    @Test(testName = "TC02.12 : Verify If The Working hours of The Fifth Mosque Is Correct")
     public void isFifthMosqueWorkingHoursCorrect() {
-        test = extent.createTest("Check if The Working hours of The Fifth Mosque Is Correct");
-
         navigateToMosquesTab();
         // is working hours correct
-        assertEquals( getCurrentItemText(5, 2),"Working Hours: Always Open");
-
+        assertEquals(getCurrentItemText(5, 2), "Working Hours: Always Open");
     }
 
 

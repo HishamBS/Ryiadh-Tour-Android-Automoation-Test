@@ -1,740 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="47" passed="35" failed="4" skipped="0">
+<testng-results ignored="6" total="45" passed="35" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-13T14:42:53Z" name="Default Suite" finished-at="2020-06-13T14:49:14Z" duration-ms="381333">
+  <suite started-at="2020-06-14T11:14:54Z" name="Default Suite" finished-at="2020-06-14T11:19:04Z" duration-ms="249245">
     <groups>
     </groups>
-    <test started-at="2020-06-13T14:42:53Z" name="Riyadh_Tour_Automation_TESTNG" finished-at="2020-06-13T14:49:14Z" duration-ms="381333">
-      <class name="ApplicationRunningTest">
-        <test-method is-config="true" signature="configureExtent()[pri:0, instance:ApplicationRunningTest@140e5a13]" started-at="2020-06-13T14:42:53Z" name="configureExtent" finished-at="2020-06-13T14:42:53Z" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureExtent -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ApplicationRunningTest@140e5a13]" started-at="2020-06-13T14:42:53Z" name="setUp" finished-at="2020-06-13T14:42:56Z" duration-ms="3648" status="PASS">
+    <test started-at="2020-06-14T11:14:54Z" name="Riyadh_Tour_Automation_TESTNG" finished-at="2020-06-14T11:19:04Z" duration-ms="249245">
+      <class name="TS02_Mosques">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:13Z" name="setUp" finished-at="2020-06-14T11:16:16Z" duration-ms="3211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="applicationIsOpen()[pri:0, instance:ApplicationRunningTest@140e5a13]" started-at="2020-06-13T14:42:56Z" name="applicationIsOpen" finished-at="2020-06-13T14:42:58Z" duration-ms="1786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationIsOpen -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:ApplicationRunningTest@140e5a13]" started-at="2020-06-13T14:42:58Z" name="updateReport" finished-at="2020-06-13T14:42:58Z" duration-ms="112" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=applicationIsOpen status=SUCCESS method=ApplicationRunningTest.applicationIsOpen()[pri:0, instance:ApplicationRunningTest@140e5a13] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:ApplicationRunningTest@140e5a13]" started-at="2020-06-13T14:49:14Z" name="endReport" finished-at="2020-06-13T14:49:14Z" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- ApplicationRunningTest -->
-      <class name="MallsPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:42:58Z" name="setUp" finished-at="2020-06-13T14:43:02Z" duration-ms="3222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="areAllImagesDisplayed()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:02Z" name="areAllImagesDisplayed" finished-at="2020-06-13T14:43:05Z" duration-ms="3362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- areAllImagesDisplayed -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:05Z" name="updateReport" finished-at="2020-06-13T14:43:05Z" duration-ms="115" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=areAllImagesDisplayed status=SUCCESS method=MallsPageTests.areAllImagesDisplayed()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:05Z" name="setUp" finished-at="2020-06-13T14:43:08Z" duration-ms="3206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:08Z" name="isFifthMallLocationCorrect" finished-at="2020-06-13T14:43:18Z" duration-ms="9317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFifthMallLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:18Z" name="updateReport" finished-at="2020-06-13T14:43:18Z" duration-ms="103" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFifthMallLocationCorrect status=SUCCESS method=MallsPageTests.isFifthMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:18Z" name="setUp" finished-at="2020-06-13T14:43:21Z" duration-ms="3282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:21Z" name="isFifthMallWorkingHoursCorrect" finished-at="2020-06-13T14:43:24Z" duration-ms="3047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFifthMallWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:24Z" name="updateReport" finished-at="2020-06-13T14:43:24Z" duration-ms="95" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFifthMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFifthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:24Z" name="setUp" finished-at="2020-06-13T14:43:28Z" duration-ms="3382" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:28Z" name="isFirstMallLocationCorrect" finished-at="2020-06-13T14:43:35Z" duration-ms="7648" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Al Nakheel Mall] but found [Exit 9]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Al Nakheel Mall] but found [Exit 9]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at MallsPageTests.isFirstMallLocationCorrect(MallsPageTests.java:49)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFirstMallLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:35Z" name="updateReport" finished-at="2020-06-13T14:43:36Z" duration-ms="1199" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFirstMallLocationCorrect status=FAILURE method=MallsPageTests.isFirstMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:36Z" name="setUp" finished-at="2020-06-13T14:43:40Z" duration-ms="3556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:40Z" name="isFirstMallWorkingHoursCorrect" finished-at="2020-06-13T14:43:43Z" duration-ms="3483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFirstMallWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:43Z" name="updateReport" finished-at="2020-06-13T14:43:44Z" duration-ms="106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFirstMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFirstMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:44Z" name="setUp" finished-at="2020-06-13T14:43:47Z" duration-ms="3310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:47Z" name="isFourthMallLocationCorrect" finished-at="2020-06-13T14:43:52Z" duration-ms="5368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFourthMallLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:52Z" name="updateReport" finished-at="2020-06-13T14:43:52Z" duration-ms="134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFourthMallLocationCorrect status=SUCCESS method=MallsPageTests.isFourthMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:52Z" name="setUp" finished-at="2020-06-13T14:43:56Z" duration-ms="3395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:56Z" name="isFourthMallWorkingHoursCorrect" finished-at="2020-06-13T14:43:59Z" duration-ms="3131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFourthMallWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:59Z" name="updateReport" finished-at="2020-06-13T14:43:59Z" duration-ms="97" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFourthMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isFourthMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:43:59Z" name="setUp" finished-at="2020-06-13T14:44:02Z" duration-ms="3341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isMallsTabDisplayed()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:02Z" name="isMallsTabDisplayed" finished-at="2020-06-13T14:44:05Z" duration-ms="2738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isMallsTabDisplayed -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:05Z" name="updateReport" finished-at="2020-06-13T14:44:05Z" duration-ms="96" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isMallsTabDisplayed status=SUCCESS method=MallsPageTests.isMallsTabDisplayed()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:05Z" name="setUp" finished-at="2020-06-13T14:44:09Z" duration-ms="3390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:09Z" name="isSecondMallLocationCorrect" finished-at="2020-06-13T14:44:14Z" duration-ms="5520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSecondMallLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:14Z" name="updateReport" finished-at="2020-06-13T14:44:14Z" duration-ms="125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSecondMallLocationCorrect status=SUCCESS method=MallsPageTests.isSecondMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:14Z" name="setUp" finished-at="2020-06-13T14:44:18Z" duration-ms="3406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:18Z" name="isSecondMallWorkingHoursCorrect" finished-at="2020-06-13T14:44:26Z" duration-ms="8417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSecondMallWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:26Z" name="updateReport" finished-at="2020-06-13T14:44:26Z" duration-ms="99" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSecondMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isSecondMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:26Z" name="setUp" finished-at="2020-06-13T14:44:29Z" duration-ms="3292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:29Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-13T14:44:58Z" duration-ms="28884" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:58Z" name="updateReport" finished-at="2020-06-13T14:44:58Z" duration-ms="99" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MallsPageTests.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:44:58Z" name="setUp" finished-at="2020-06-13T14:45:02Z" duration-ms="3259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:45:02Z" name="isThirdMallLocationCorrect" finished-at="2020-06-13T14:45:07Z" duration-ms="5538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isThirdMallLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:45:07Z" name="updateReport" finished-at="2020-06-13T14:45:07Z" duration-ms="225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isThirdMallLocationCorrect status=SUCCESS method=MallsPageTests.isThirdMallLocationCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:45:07Z" name="setUp" finished-at="2020-06-13T14:45:12Z" duration-ms="4425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:45:12Z" name="isThirdMallWorkingHoursCorrect" finished-at="2020-06-13T14:45:20Z" duration-ms="8475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isThirdMallWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MallsPageTests@3439f68d]" started-at="2020-06-13T14:45:20Z" name="updateReport" finished-at="2020-06-13T14:45:20Z" duration-ms="107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isThirdMallWorkingHoursCorrect status=SUCCESS method=MallsPageTests.isThirdMallWorkingHoursCorrect()[pri:0, instance:MallsPageTests@3439f68d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-      </class> <!-- MallsPageTests -->
-      <class name="MuseumsPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:14Z" name="setUp" finished-at="2020-06-13T14:47:17Z" duration-ms="3276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="areAllImagesDisplayed()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:17Z" name="areAllImagesDisplayed" finished-at="2020-06-13T14:47:20Z" duration-ms="3108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- areAllImagesDisplayed -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:20Z" name="updateReport" finished-at="2020-06-13T14:47:21Z" duration-ms="97" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=areAllImagesDisplayed status=SUCCESS method=MuseumsPageTests.areAllImagesDisplayed()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:21Z" name="setUp" finished-at="2020-06-13T14:47:24Z" duration-ms="3223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:24Z" name="isFifthMuseumLocationCorrect" finished-at="2020-06-13T14:47:29Z" duration-ms="5398" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [King Salman Science Oasis] but found [Al Safarat]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [King Salman Science Oasis] but found [Al Safarat]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at MuseumsPageTests.isFifthMuseumLocationCorrect(MuseumsPageTests.java:110)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFifthMuseumLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:29Z" name="updateReport" finished-at="2020-06-13T14:47:30Z" duration-ms="1251" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFifthMuseumLocationCorrect status=FAILURE method=MuseumsPageTests.isFifthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:30Z" name="setUp" finished-at="2020-06-13T14:47:34Z" duration-ms="3251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:34Z" name="isFifthMuseumWorkingHoursCorrect" finished-at="2020-06-13T14:47:36Z" duration-ms="2749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFifthMuseumWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:36Z" name="updateReport" finished-at="2020-06-13T14:47:37Z" duration-ms="100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFifthMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFifthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:37Z" name="setUp" finished-at="2020-06-13T14:47:40Z" duration-ms="3346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:40Z" name="isFirstMuseumLocationCorrect" finished-at="2020-06-13T14:47:46Z" duration-ms="5799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFirstMuseumLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:46Z" name="updateReport" finished-at="2020-06-13T14:47:46Z" duration-ms="121" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFirstMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isFirstMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:46Z" name="setUp" finished-at="2020-06-13T14:47:49Z" duration-ms="3502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:49Z" name="isFirstMuseumWorkingHoursCorrect" finished-at="2020-06-13T14:47:52Z" duration-ms="2729" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFirstMuseumWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:52Z" name="updateReport" finished-at="2020-06-13T14:47:52Z" duration-ms="101" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFirstMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFirstMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:52Z" name="setUp" finished-at="2020-06-13T14:47:55Z" duration-ms="3227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:47:55Z" name="isFourthMuseumLocationCorrect" finished-at="2020-06-13T14:48:00Z" duration-ms="4471" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFourthMuseumLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:00Z" name="updateReport" finished-at="2020-06-13T14:48:00Z" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFourthMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isFourthMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:00Z" name="setUp" finished-at="2020-06-13T14:48:03Z" duration-ms="3243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:03Z" name="isFourthMuseumWorkingHoursCorrect" finished-at="2020-06-13T14:48:06Z" duration-ms="2757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isFourthMuseumWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:06Z" name="updateReport" finished-at="2020-06-13T14:48:06Z" duration-ms="96" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isFourthMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isFourthMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:06Z" name="setUp" finished-at="2020-06-13T14:48:09Z" duration-ms="3434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isMuseumsTabDisplayed()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:09Z" name="isMuseumsTabDisplayed" finished-at="2020-06-13T14:48:13Z" duration-ms="3170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isMuseumsTabDisplayed -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:13Z" name="updateReport" finished-at="2020-06-13T14:48:13Z" duration-ms="127" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isMuseumsTabDisplayed status=SUCCESS method=MuseumsPageTests.isMuseumsTabDisplayed()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:13Z" name="setUp" finished-at="2020-06-13T14:48:16Z" duration-ms="3260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:16Z" name="isSecondMuseumLocationCorrect" finished-at="2020-06-13T14:48:21Z" duration-ms="4711" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Saqr Aljazeera Aviation Museum] but found [Eastern Ring Branch Rd, King Abdullah Dt.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Saqr Aljazeera Aviation Museum] but found [Eastern Ring Branch Rd, King Abdullah Dt.]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at MuseumsPageTests.isSecondMuseumLocationCorrect(MuseumsPageTests.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSecondMuseumLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:21Z" name="updateReport" finished-at="2020-06-13T14:48:21Z" duration-ms="609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSecondMuseumLocationCorrect status=FAILURE method=MuseumsPageTests.isSecondMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:21Z" name="setUp" finished-at="2020-06-13T14:48:25Z" duration-ms="3510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:25Z" name="isSecondMuseumWorkingHoursCorrect" finished-at="2020-06-13T14:48:28Z" duration-ms="2800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSecondMuseumWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:28Z" name="updateReport" finished-at="2020-06-13T14:48:28Z" duration-ms="98" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSecondMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isSecondMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:28Z" name="setUp" finished-at="2020-06-13T14:48:31Z" duration-ms="3217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:31Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-13T14:48:55Z" duration-ms="24497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:55Z" name="updateReport" finished-at="2020-06-13T14:48:56Z" duration-ms="122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MuseumsPageTests.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:56Z" name="setUp" finished-at="2020-06-13T14:48:59Z" duration-ms="3334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:48:59Z" name="isThirdMuseumLocationCorrect" finished-at="2020-06-13T14:49:06Z" duration-ms="7149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isThirdMuseumLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:49:06Z" name="updateReport" finished-at="2020-06-13T14:49:06Z" duration-ms="122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isThirdMuseumLocationCorrect status=SUCCESS method=MuseumsPageTests.isThirdMuseumLocationCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:49:06Z" name="setUp" finished-at="2020-06-13T14:49:11Z" duration-ms="4396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:49:11Z" name="isThirdMuseumWorkingHoursCorrect" finished-at="2020-06-13T14:49:14Z" duration-ms="3124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isThirdMuseumWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MuseumsPageTests@71d15f18]" started-at="2020-06-13T14:49:14Z" name="updateReport" finished-at="2020-06-13T14:49:14Z" duration-ms="100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isThirdMuseumWorkingHoursCorrect status=SUCCESS method=MuseumsPageTests.isThirdMuseumWorkingHoursCorrect()[pri:0, instance:MuseumsPageTests@71d15f18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-      </class> <!-- MuseumsPageTests -->
-      <class name="MosquesPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:20Z" name="setUp" finished-at="2020-06-13T14:45:24Z" duration-ms="3253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:24Z" name="isFifthMosqueLocationCorrect" finished-at="2020-06-13T14:45:29Z" duration-ms="5075" status="PASS">
+        <test-method signature="isFifthMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:16Z" name="isFifthMosqueLocationCorrect" finished-at="2020-06-14T11:16:21Z" duration-ms="5129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFifthMosqueLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:29Z" name="updateReport" finished-at="2020-06-13T14:45:29Z" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:21Z" name="updateReport" finished-at="2020-06-14T11:16:21Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFifthMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isFifthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFifthMosqueLocationCorrect status=SUCCESS method=TS02_Mosques.isFifthMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFifthMosqueLocationCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:29Z" name="setUp" finished-at="2020-06-13T14:45:32Z" duration-ms="3415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFifthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:32Z" name="isFifthMosqueWorkingHoursCorrect" finished-at="2020-06-13T14:45:35Z" duration-ms="2933" status="PASS">
+        <test-method signature="isFifthMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:21Z" name="isFifthMosqueWorkingHoursCorrect" finished-at="2020-06-14T11:16:24Z" duration-ms="2820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFifthMosqueWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:35Z" name="updateReport" finished-at="2020-06-13T14:45:35Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:24Z" name="updateReport" finished-at="2020-06-14T11:16:24Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFifthMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFifthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFifthMosqueWorkingHoursCorrect status=SUCCESS method=TS02_Mosques.isFifthMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFifthMosqueWorkingHoursCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:35Z" name="setUp" finished-at="2020-06-13T14:45:38Z" duration-ms="3193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:38Z" name="isFirstMosqueLocationCorrect" finished-at="2020-06-13T14:45:44Z" duration-ms="5728" status="PASS">
+        <test-method signature="isFirstMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:24Z" name="isFirstMosqueLocationCorrect" finished-at="2020-06-14T11:16:29Z" duration-ms="5284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFirstMosqueLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:44Z" name="updateReport" finished-at="2020-06-13T14:45:44Z" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:29Z" name="updateReport" finished-at="2020-06-14T11:16:29Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFirstMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isFirstMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFirstMosqueLocationCorrect status=SUCCESS method=TS02_Mosques.isFirstMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFirstMosqueLocationCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:44Z" name="setUp" finished-at="2020-06-13T14:45:48Z" duration-ms="3434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFirstMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:48Z" name="isFirstMosqueWorkingHoursCorrect" finished-at="2020-06-13T14:45:51Z" duration-ms="2762" status="PASS">
+        <test-method signature="isFirstMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:29Z" name="isFirstMosqueWorkingHoursCorrect" finished-at="2020-06-14T11:16:33Z" duration-ms="3571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFirstMosqueWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:51Z" name="updateReport" finished-at="2020-06-13T14:45:51Z" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:33Z" name="updateReport" finished-at="2020-06-14T11:16:33Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFirstMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFirstMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFirstMosqueWorkingHoursCorrect status=SUCCESS method=TS02_Mosques.isFirstMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFirstMosqueWorkingHoursCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:51Z" name="setUp" finished-at="2020-06-13T14:45:54Z" duration-ms="3218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:54Z" name="isFourthMosqueLocationCorrect" finished-at="2020-06-13T14:45:59Z" duration-ms="5100" status="FAIL">
+        <test-method signature="isFourthMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:33Z" name="isFourthMosqueLocationCorrect" finished-at="2020-06-14T11:16:38Z" duration-ms="5139" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Princess Latifa Bint Sultan Bin Abdulaziz Grand Mosque] but found [takhasussi]]]>
@@ -747,7 +104,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at MosquesPageTests.isFourthMosqueLocationCorrect(MosquesPageTests.java:90)
+at TS02_Mosques.isFourthMosqueLocationCorrect(TS02_Mosques.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -778,151 +135,857 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFourthMosqueLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:45:59Z" name="updateReport" finished-at="2020-06-13T14:46:00Z" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:38Z" name="updateReport" finished-at="2020-06-14T11:16:39Z" duration-ms="733" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFourthMosqueLocationCorrect status=FAILURE method=MosquesPageTests.isFourthMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFourthMosqueLocationCorrect status=FAILURE method=TS02_Mosques.isFourthMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFourthMosqueLocationCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:00Z" name="setUp" finished-at="2020-06-13T14:46:03Z" duration-ms="3468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isFourthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:03Z" name="isFourthMosqueWorkingHoursCorrect" finished-at="2020-06-13T14:46:06Z" duration-ms="2936" status="PASS">
+        <test-method signature="isFourthMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:39Z" name="isFourthMosqueWorkingHoursCorrect" finished-at="2020-06-14T11:16:41Z" duration-ms="2539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isFourthMosqueWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:06Z" name="updateReport" finished-at="2020-06-13T14:46:06Z" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:41Z" name="updateReport" finished-at="2020-06-14T11:16:41Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isFourthMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isFourthMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isFourthMosqueWorkingHoursCorrect status=SUCCESS method=TS02_Mosques.isFourthMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isFourthMosqueWorkingHoursCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:06Z" name="setUp" finished-at="2020-06-13T14:46:10Z" duration-ms="3382" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isMosqueTabDisplayed()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:10Z" name="isMosqueTabDisplayed" finished-at="2020-06-13T14:46:13Z" duration-ms="3264" status="PASS">
+        <test-method signature="isMosqueTabDisplayed()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:41Z" name="isMosqueTabDisplayed" finished-at="2020-06-14T11:16:43Z" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isMosqueTabDisplayed -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:13Z" name="updateReport" finished-at="2020-06-13T14:46:13Z" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:43Z" name="updateReport" finished-at="2020-06-14T11:16:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isMosqueTabDisplayed status=SUCCESS method=MosquesPageTests.isMosqueTabDisplayed()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isMosqueTabDisplayed status=SUCCESS method=TS02_Mosques.isMosqueTabDisplayed()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isMosqueTabDisplayed()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:13Z" name="setUp" finished-at="2020-06-13T14:46:16Z" duration-ms="3234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:16Z" name="isSecondMosqueLocationCorrect" finished-at="2020-06-13T14:46:21Z" duration-ms="5183" status="PASS">
+        <test-method signature="isSecondMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:43Z" name="isSecondMosqueLocationCorrect" finished-at="2020-06-14T11:16:48Z" duration-ms="4918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSecondMosqueLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:21Z" name="updateReport" finished-at="2020-06-13T14:46:21Z" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:48Z" name="updateReport" finished-at="2020-06-14T11:16:48Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSecondMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isSecondMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isSecondMosqueLocationCorrect status=SUCCESS method=TS02_Mosques.isSecondMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isSecondMosqueLocationCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:21Z" name="setUp" finished-at="2020-06-13T14:46:25Z" duration-ms="3355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSecondMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:25Z" name="isSecondMosqueWorkingHoursCorrect" finished-at="2020-06-13T14:46:28Z" duration-ms="2880" status="PASS">
+        <test-method signature="isSecondMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:48Z" name="isSecondMosqueWorkingHoursCorrect" finished-at="2020-06-14T11:16:51Z" duration-ms="2840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSecondMosqueWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:28Z" name="updateReport" finished-at="2020-06-13T14:46:28Z" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:51Z" name="updateReport" finished-at="2020-06-14T11:16:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSecondMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isSecondMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isSecondMosqueWorkingHoursCorrect status=SUCCESS method=TS02_Mosques.isSecondMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isSecondMosqueWorkingHoursCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:28Z" name="setUp" finished-at="2020-06-13T14:46:31Z" duration-ms="3233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:31Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-13T14:46:58Z" duration-ms="26599" status="PASS">
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:16:51Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-14T11:17:18Z" duration-ms="26472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:58Z" name="updateReport" finished-at="2020-06-13T14:46:58Z" duration-ms="137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=MosquesPageTests.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:46:58Z" name="setUp" finished-at="2020-06-13T14:47:01Z" duration-ms="3450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:47:01Z" name="isThirdMosqueLocationCorrect" finished-at="2020-06-13T14:47:06Z" duration-ms="5217" status="PASS">
+        <test-method signature="isThirdMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:18Z" name="isThirdMosqueLocationCorrect" finished-at="2020-06-14T11:17:23Z" duration-ms="5374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isThirdMosqueLocationCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:47:06Z" name="updateReport" finished-at="2020-06-13T14:47:06Z" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:18Z" name="updateReport" finished-at="2020-06-14T11:17:18Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isThirdMosqueLocationCorrect status=SUCCESS method=MosquesPageTests.isThirdMosqueLocationCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=TS02_Mosques.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isSuccessfullyRedirectedToGoogleMaps()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:47:06Z" name="setUp" finished-at="2020-06-13T14:47:11Z" duration-ms="4429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="isThirdMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:47:11Z" name="isThirdMosqueWorkingHoursCorrect" finished-at="2020-06-13T14:47:14Z" duration-ms="3070" status="PASS">
+        <test-method signature="isThirdMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:23Z" name="isThirdMosqueWorkingHoursCorrect" finished-at="2020-06-14T11:17:26Z" duration-ms="2753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isThirdMosqueWorkingHoursCorrect -->
-        <test-method is-config="true" signature="updateReport(org.testng.ITestResult)[pri:0, instance:MosquesPageTests@dbd940d]" started-at="2020-06-13T14:47:14Z" name="updateReport" finished-at="2020-06-13T14:47:14Z" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:23Z" name="updateReport" finished-at="2020-06-14T11:17:23Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isThirdMosqueWorkingHoursCorrect status=SUCCESS method=MosquesPageTests.isThirdMosqueWorkingHoursCorrect()[pri:0, instance:MosquesPageTests@dbd940d] output={null}]]]>
+                <![CDATA[[TestResult name=isThirdMosqueLocationCorrect status=SUCCESS method=TS02_Mosques.isThirdMosqueLocationCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isThirdMosqueLocationCorrect()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateReport -->
-      </class> <!-- MosquesPageTests -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:26Z" name="updateReport" finished-at="2020-06-14T11:17:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isThirdMosqueWorkingHoursCorrect status=SUCCESS method=TS02_Mosques.isThirdMosqueWorkingHoursCorrect()[pri:0, instance:TS02_Mosques@60438a68] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS02_Mosques.isThirdMosqueWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TS02_Mosques@60438a68]" started-at="2020-06-14T11:17:26Z" name="tearDown" finished-at="2020-06-14T11:17:26Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TS02_Mosques -->
+      <class name="TS03_Malls">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:26Z" name="setUp" finished-at="2020-06-14T11:17:29Z" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="areAllImagesDisplayed()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:29Z" name="areAllImagesDisplayed" finished-at="2020-06-14T11:17:34Z" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areAllImagesDisplayed -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:34Z" name="updateReport" finished-at="2020-06-14T11:17:34Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=areAllImagesDisplayed status=SUCCESS method=TS03_Malls.areAllImagesDisplayed()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.areAllImagesDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFifthMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:34Z" name="isFifthMallLocationCorrect" finished-at="2020-06-14T11:17:42Z" duration-ms="8185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMallLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:42Z" name="updateReport" finished-at="2020-06-14T11:17:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFifthMallLocationCorrect status=SUCCESS method=TS03_Malls.isFifthMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFifthMallLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFifthMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:42Z" name="isFifthMallWorkingHoursCorrect" finished-at="2020-06-14T11:17:45Z" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMallWorkingHoursCorrect -->
+        <test-method signature="isFirstMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:45Z" name="isFirstMallLocationCorrect" finished-at="2020-06-14T11:17:52Z" duration-ms="7196" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Al Nakheel Mall] but found [Exit 9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Al Nakheel Mall] but found [Exit 9]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TS03_Malls.isFirstMallLocationCorrect(TS03_Malls.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMallLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:45Z" name="updateReport" finished-at="2020-06-14T11:17:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFifthMallWorkingHoursCorrect status=SUCCESS method=TS03_Malls.isFifthMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFifthMallWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:52Z" name="updateReport" finished-at="2020-06-14T11:17:53Z" duration-ms="960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFirstMallLocationCorrect status=FAILURE method=TS03_Malls.isFirstMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFirstMallLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFirstMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:53Z" name="isFirstMallWorkingHoursCorrect" finished-at="2020-06-14T11:17:56Z" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMallWorkingHoursCorrect -->
+        <test-method signature="isFourthMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:56Z" name="isFourthMallLocationCorrect" finished-at="2020-06-14T11:18:02Z" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMallLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:17:56Z" name="updateReport" finished-at="2020-06-14T11:17:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFirstMallWorkingHoursCorrect status=SUCCESS method=TS03_Malls.isFirstMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFirstMallWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:02Z" name="updateReport" finished-at="2020-06-14T11:18:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFourthMallLocationCorrect status=SUCCESS method=TS03_Malls.isFourthMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFourthMallLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFourthMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:02Z" name="isFourthMallWorkingHoursCorrect" finished-at="2020-06-14T11:18:05Z" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMallWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:05Z" name="updateReport" finished-at="2020-06-14T11:18:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFourthMallWorkingHoursCorrect status=SUCCESS method=TS03_Malls.isFourthMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isFourthMallWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isMallsTabDisplayed()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:05Z" name="isMallsTabDisplayed" finished-at="2020-06-14T11:18:08Z" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMallsTabDisplayed -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:08Z" name="updateReport" finished-at="2020-06-14T11:18:08Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isMallsTabDisplayed status=SUCCESS method=TS03_Malls.isMallsTabDisplayed()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isMallsTabDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isSecondMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:08Z" name="isSecondMallLocationCorrect" finished-at="2020-06-14T11:18:13Z" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMallLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:13Z" name="updateReport" finished-at="2020-06-14T11:18:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSecondMallLocationCorrect status=SUCCESS method=TS03_Malls.isSecondMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isSecondMallLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isSecondMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:13Z" name="isSecondMallWorkingHoursCorrect" finished-at="2020-06-14T11:18:21Z" duration-ms="8472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMallWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:21Z" name="updateReport" finished-at="2020-06-14T11:18:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSecondMallWorkingHoursCorrect status=SUCCESS method=TS03_Malls.isSecondMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isSecondMallWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:21Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-14T11:18:50Z" duration-ms="28226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+        <test-method signature="isThirdMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:50Z" name="isThirdMallLocationCorrect" finished-at="2020-06-14T11:18:55Z" duration-ms="5248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMallLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:50Z" name="updateReport" finished-at="2020-06-14T11:18:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=TS03_Malls.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isSuccessfullyRedirectedToGoogleMaps()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:55Z" name="updateReport" finished-at="2020-06-14T11:18:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isThirdMallLocationCorrect status=SUCCESS method=TS03_Malls.isThirdMallLocationCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isThirdMallLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isThirdMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:18:55Z" name="isThirdMallWorkingHoursCorrect" finished-at="2020-06-14T11:19:03Z" duration-ms="8283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMallWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:19:03Z" name="updateReport" finished-at="2020-06-14T11:19:03Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isThirdMallWorkingHoursCorrect status=SUCCESS method=TS03_Malls.isThirdMallWorkingHoursCorrect()[pri:0, instance:TS03_Malls@140e5a13] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS03_Malls.isThirdMallWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TS03_Malls@140e5a13]" started-at="2020-06-14T11:19:03Z" name="tearDown" finished-at="2020-06-14T11:19:03Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TS03_Malls -->
+      <class name="Page">
+        <test-method is-config="true" signature="configureExtent()[pri:0, instance:Page@50de0926]" started-at="2020-06-14T11:14:54Z" name="configureExtent" finished-at="2020-06-14T11:14:54Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureExtent -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Page@50de0926]" started-at="2020-06-14T11:19:03Z" name="endReport" finished-at="2020-06-14T11:19:04Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Page -->
+      <class name="TS01_Museums">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:14:54Z" name="setUp" finished-at="2020-06-14T11:14:58Z" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="applicationIsOpen()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:14:58Z" name="applicationIsOpen" finished-at="2020-06-14T11:15:00Z" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationIsOpen -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:00Z" name="updateReport" finished-at="2020-06-14T11:15:00Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=applicationIsOpen status=SUCCESS method=TS01_Museums.applicationIsOpen()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.applicationIsOpen()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="areAllImagesDisplayed()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:00Z" name="areAllImagesDisplayed" finished-at="2020-06-14T11:15:03Z" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areAllImagesDisplayed -->
+        <test-method signature="isFifthMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:03Z" name="isFifthMuseumLocationCorrect" finished-at="2020-06-14T11:15:08Z" duration-ms="5011" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [King Salman Science Oasis] but found [Al Safarat]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [King Salman Science Oasis] but found [Al Safarat]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TS01_Museums.isFifthMuseumLocationCorrect(TS01_Museums.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMuseumLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:03Z" name="updateReport" finished-at="2020-06-14T11:15:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=areAllImagesDisplayed status=SUCCESS method=TS01_Museums.areAllImagesDisplayed()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.areAllImagesDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:08Z" name="updateReport" finished-at="2020-06-14T11:15:10Z" duration-ms="1073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFifthMuseumLocationCorrect status=FAILURE method=TS01_Museums.isFifthMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFifthMuseumLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFifthMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:10Z" name="isFifthMuseumWorkingHoursCorrect" finished-at="2020-06-14T11:15:12Z" duration-ms="2685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFifthMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:12Z" name="updateReport" finished-at="2020-06-14T11:15:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFifthMuseumWorkingHoursCorrect status=SUCCESS method=TS01_Museums.isFifthMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFifthMuseumWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFirstMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:12Z" name="isFirstMuseumLocationCorrect" finished-at="2020-06-14T11:15:17Z" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMuseumLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:17Z" name="updateReport" finished-at="2020-06-14T11:15:17Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFirstMuseumLocationCorrect status=SUCCESS method=TS01_Museums.isFirstMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFirstMuseumLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFirstMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:17Z" name="isFirstMuseumWorkingHoursCorrect" finished-at="2020-06-14T11:15:20Z" duration-ms="2664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFirstMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:20Z" name="updateReport" finished-at="2020-06-14T11:15:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFirstMuseumWorkingHoursCorrect status=SUCCESS method=TS01_Museums.isFirstMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFirstMuseumWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isFourthMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:20Z" name="isFourthMuseumLocationCorrect" finished-at="2020-06-14T11:15:24Z" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMuseumLocationCorrect -->
+        <test-method signature="isFourthMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:24Z" name="isFourthMuseumWorkingHoursCorrect" finished-at="2020-06-14T11:15:27Z" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFourthMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:24Z" name="updateReport" finished-at="2020-06-14T11:15:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFourthMuseumLocationCorrect status=SUCCESS method=TS01_Museums.isFourthMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFourthMuseumLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:27Z" name="updateReport" finished-at="2020-06-14T11:15:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isFourthMuseumWorkingHoursCorrect status=SUCCESS method=TS01_Museums.isFourthMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isFourthMuseumWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isMuseumsTabDisplayed()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:27Z" name="isMuseumsTabDisplayed" finished-at="2020-06-14T11:15:29Z" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMuseumsTabDisplayed -->
+        <test-method signature="isSecondMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:29Z" name="isSecondMuseumLocationCorrect" finished-at="2020-06-14T11:15:34Z" duration-ms="5116" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Saqr Aljazeera Aviation Museum] but found [Eastern Ring Branch Rd, King Abdullah Dt.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Saqr Aljazeera Aviation Museum] but found [Eastern Ring Branch Rd, King Abdullah Dt.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TS01_Museums.isSecondMuseumLocationCorrect(TS01_Museums.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMuseumLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:29Z" name="updateReport" finished-at="2020-06-14T11:15:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isMuseumsTabDisplayed status=SUCCESS method=TS01_Museums.isMuseumsTabDisplayed()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isMuseumsTabDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:34Z" name="updateReport" finished-at="2020-06-14T11:15:35Z" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSecondMuseumLocationCorrect status=FAILURE method=TS01_Museums.isSecondMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isSecondMuseumLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isSecondMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:35Z" name="isSecondMuseumWorkingHoursCorrect" finished-at="2020-06-14T11:15:37Z" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSecondMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:37Z" name="updateReport" finished-at="2020-06-14T11:15:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSecondMuseumWorkingHoursCorrect status=SUCCESS method=TS01_Museums.isSecondMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isSecondMuseumWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:15:37Z" name="isSuccessfullyRedirectedToGoogleMaps" finished-at="2020-06-14T11:16:03Z" duration-ms="25287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuccessfullyRedirectedToGoogleMaps -->
+        <test-method signature="isThirdMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:03Z" name="isThirdMuseumLocationCorrect" finished-at="2020-06-14T11:16:10Z" duration-ms="7177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMuseumLocationCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:03Z" name="updateReport" finished-at="2020-06-14T11:16:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSuccessfullyRedirectedToGoogleMaps status=SUCCESS method=TS01_Museums.isSuccessfullyRedirectedToGoogleMaps()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isSuccessfullyRedirectedToGoogleMaps()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:10Z" name="updateReport" finished-at="2020-06-14T11:16:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isThirdMuseumLocationCorrect status=SUCCESS method=TS01_Museums.isThirdMuseumLocationCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isThirdMuseumLocationCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method signature="isThirdMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:10Z" name="isThirdMuseumWorkingHoursCorrect" finished-at="2020-06-14T11:16:13Z" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThirdMuseumWorkingHoursCorrect -->
+        <test-method is-config="true" signature="updateReport(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:13Z" name="updateReport" finished-at="2020-06-14T11:16:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isThirdMuseumWorkingHoursCorrect status=SUCCESS method=TS01_Museums.isThirdMuseumWorkingHoursCorrect()[pri:0, instance:TS01_Museums@2473b9ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TS01_Museums.isThirdMuseumWorkingHoursCorrect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TS01_Museums@2473b9ce]" started-at="2020-06-14T11:16:13Z" name="tearDown" finished-at="2020-06-14T11:16:13Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TS01_Museums -->
     </test> <!-- Riyadh_Tour_Automation_TESTNG -->
   </suite> <!-- Default Suite -->
 </testng-results>

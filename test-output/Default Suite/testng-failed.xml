@@ -3,34 +3,37 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Riyadh_Tour_Automation_TESTNG(failed)">
     <classes>
-      <class name="MallsPageTests">
+      <class name="TS01_Museums">
+        <methods>
+          <include name="isFifthMuseumLocationCorrect"/>
+          <include name="configureExtent"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="isSecondMuseumLocationCorrect"/>
+          <include name="endReport"/>
+          <include name="updateReport"/>
+        </methods>
+      </class> <!-- TS01_Museums -->
+      <class name="TS03_Malls">
         <methods>
           <include name="configureExtent"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="endReport"/>
           <include name="isFirstMallLocationCorrect"/>
           <include name="updateReport"/>
         </methods>
-      </class> <!-- MallsPageTests -->
-      <class name="MuseumsPageTests">
+      </class> <!-- TS03_Malls -->
+      <class name="TS02_Mosques">
         <methods>
           <include name="configureExtent"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="endReport"/>
-          <include name="isSecondMuseumLocationCorrect"/>
-          <include name="isFifthMuseumLocationCorrect"/>
           <include name="updateReport"/>
-        </methods>
-      </class> <!-- MuseumsPageTests -->
-      <class name="MosquesPageTests">
-        <methods>
           <include name="isFourthMosqueLocationCorrect"/>
-          <include name="configureExtent"/>
-          <include name="setUp"/>
-          <include name="endReport"/>
-          <include name="updateReport"/>
         </methods>
-      </class> <!-- MosquesPageTests -->
+      </class> <!-- TS02_Mosques -->
     </classes>
   </test> <!-- Riyadh_Tour_Automation_TESTNG(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
