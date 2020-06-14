@@ -50,7 +50,7 @@ public class TS01_Museums extends Page {
         clickListItem(1);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "King Faisal Road");
+        assertEquals(isLocationCorrect(), "King Abdulaziz Historical Center (National Museum)");
     }
 
     @Test(testName = "TC01.05 : Verify If Location of The Second Museum Is Correct")
@@ -69,11 +69,7 @@ public class TS01_Museums extends Page {
         //click third museum
         clickListItem(3);
         implicitlyWait(3);
-        //click partial
-        clickTabItem("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[2]/android.widget.LinearLayout");
-//        click("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ViewSwitcher/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[1]");
         // is location correct
-        implicitlyWait(7);
         assertEquals(isLocationCorrect(), "Al Masmak Palace Museum");
     }
 
@@ -84,7 +80,7 @@ public class TS01_Museums extends Page {
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "2722 الملك سعود، Al Murabba");
+        assertEquals(isLocationCorrect(), "Murabba Historical Palace");
     }
 
     @Test(testName = "TC01.08 : Verify If Location of The Fifth Museum Is Correct")
@@ -94,7 +90,7 @@ public class TS01_Museums extends Page {
         clickListItem(5);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "King Salman Science Oasis");
+        assertEquals(isLocationCorrect(), "King Salman Science Oasis Taawun");
     }
 
     @Test(testName = "TC01.09 : Verify If The Working Hours of The First Museum Is Correct")

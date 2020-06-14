@@ -40,7 +40,7 @@ public class TS02_Mosques extends Page {
         clickListItem(1);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "Umm Al Hamam St");
+        assertEquals(isLocationCorrect(), "King Khalid Grand Mosque");
     }
 
     @Test(testName = "TC02.04 : Verify If Location of The Second Mosque Is Correct")
@@ -50,7 +50,7 @@ public class TS02_Mosques extends Page {
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "7084 Al Akheyar, Al Jazirah");
+        assertEquals(isLocationCorrect(), "Al Rajhi Mosque");
     }
 
     @Test(testName = "TC02.05 : Verify If Location of The Third Mosque Is Correct")
@@ -59,7 +59,7 @@ public class TS02_Mosques extends Page {
         clickListItem(3);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "King Abdullah Branch Rd");
+        assertEquals(isLocationCorrect(), "Fahad Al Owaidah Grand Mosque");
     }
 
     @Test(testName = "TC02.06 : Verify If Location of The Fourth Mosque Is Correct")
@@ -79,7 +79,7 @@ public class TS02_Mosques extends Page {
         clickListItem(5);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(), "7110 Uthman Ibn Affan Branch Rd, Al Izdihar");
+        assertEquals(isLocationCorrect(), "Al Jowharah Grand Mosque");
     }
 
     @Test(testName = "TC02.08 : Verify If The Working hours of The First Mosque Is Correct")

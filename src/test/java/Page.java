@@ -43,7 +43,7 @@ public class Page {
     @BeforeTest
     public void configureExtent() {
         // specify location of the report
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Extent-Automation-Report.html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Extent-Automation-Report(Iteration2).html");
         htmlReporter.config().setDocumentTitle("Riyadh Tour Automation Report"); // Tile of report
         htmlReporter.config().setReportName("Functional Testing"); // Name of the report
         htmlReporter.config().setTheme(Theme.STANDARD);
@@ -100,6 +100,7 @@ public class Page {
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             test.createNode(descriptiveTestName).log(Status.PASS, "✅PASSED TEST CASE => " + result.getName());
         }
+        implicitlyWait(5);
 
 //        driver.quit();
 

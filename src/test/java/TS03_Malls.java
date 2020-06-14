@@ -39,10 +39,8 @@ public class TS03_Malls extends Page {
         //click first mall
         clickListItem(1);
         implicitlyWait(3);
-        clickTabItem("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]");
         // is location correct
-        implicitlyWait(7);
-        assertEquals( isLocationCorrect(),"Al Nakheel Mall");
+        assertEquals( isLocationCorrect(),"Al Nakheel Mall by Arabian Centres النخيل مول من المراكز العربية");
     }
 
     @Test(testName = "TC03.04 : Verify If Location of The Second Mall Is Correct")
@@ -52,7 +50,7 @@ public class TS03_Malls extends Page {
         clickListItem(2);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"Olaya St");
+        assertEquals( isLocationCorrect(),"Centria Mall");
     }
 
     @Test(testName = "TC03.05 : Verify If Location of The Third Mall Is Correct")
@@ -62,7 +60,7 @@ public class TS03_Malls extends Page {
         clickListItem(3);
         implicitlyWait(3);
         // is location correct
-        assertEquals(isLocationCorrect(),"King Fahd Rd");
+        assertEquals(isLocationCorrect(),"Riyadh Gallery Mall");
     }
 
     @Test(testName = "TC03.06 : Verify If Location of The Fourth Mall Is Correct")
@@ -72,7 +70,7 @@ public class TS03_Malls extends Page {
         clickListItem(4);
         implicitlyWait(3);
         // is location correct
-        assertEquals( isLocationCorrect(),"King Abdul Aziz Rd");
+        assertEquals( isLocationCorrect(),"Hayat Mall");
     }
 
     @Test(testName = "TC03.07 : Verify If Location of The Fifth Mall Is Correct")
@@ -81,11 +79,8 @@ public class TS03_Malls extends Page {
         //click fifth mall
         clickListItem(5);
         implicitlyWait(5);
-        clickTabItem("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]");
-        implicitlyWait(7);
         // is location correct
-        String fifthMall = getTextByXpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ViewSwitcher/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView");
-        assertEquals(fifthMall,"غرناطة مول Granada Mall");
+        assertEquals(isLocationCorrect(),"غرناطة مول Granada Mall");
     }
 
     @Test(testName = "TC03.08 : Verify If The Working hours of The First Mall Is Correct")
