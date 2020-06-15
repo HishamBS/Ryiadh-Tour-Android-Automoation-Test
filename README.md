@@ -78,7 +78,7 @@ A very simple Android application that allows the user to navigate between 4 Cat
 ---
 
 ## Test Summary Report
-[Report](https://hishambs.github.io/Ryiadh-Tour-Android-Automoation-Test/)
+[Report](https://hishambs.github.io/Ryiadh-Tour-Android-Automoation-Test/index.html)
 
 ---
 
