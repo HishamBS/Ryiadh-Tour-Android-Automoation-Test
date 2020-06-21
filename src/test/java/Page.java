@@ -43,7 +43,7 @@ public class Page {
     @BeforeTest
     public void configureExtent() {
         // specify location of the report
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Extent-Automation-Report(Iteration2).html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Extent-Automation-Report(Iteration3).html");
         htmlReporter.config().setDocumentTitle("Riyadh Tour Automation Report"); // Tile of report
         htmlReporter.config().setReportName("Functional Testing"); // Name of the report
         htmlReporter.config().setTheme(Theme.STANDARD);
